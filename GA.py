@@ -34,7 +34,6 @@ for STEP in range(25):
     clf = SVC(gamma='scale')
     Random = RandomizedSearchCV(clf, param_distributions=rf_params,n_iter=n_iter_search,cv=3,scoring='accuracy')
     Random.fit(X, y)
-    print("after fit:", Random.best_score_)
     t2 = time.process_time()
     T = t2 - t1
 
