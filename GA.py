@@ -17,8 +17,8 @@ X = d.data
 y = d.target
 
 
-from evolutionary_search import EvolutionaryAlgorithmSearchCV
-rf_params = {
+from tpot import TPOTClassifier
+parameters = {
     'C': np.random.uniform(0.1,50,1000),
     "kernel":['linear','poly','rbf','sigmoid']
 }
@@ -33,18 +33,12 @@ Tdata = []
 for STEP in range(25):
     t1 = time.process_time()
     clf = SVC(gamma='scale')
-	ga1 = EvolutionaryAlgorithmSearchCV(estimator=clf,
-                                   params=rf_params,
-                                   scoring="accuracy",
-                                   cv=3,
-                                   verbose=0,
-                                   population_size=10,
-                                   gene_mutation_prob=0.10,
-                                   gene_crossover_prob=0.5,
-                                   tournament_size=3,
-                                   generations_number=14,
-                                   n_jobs=-1)
-ga1.fit(X, y)
+    ga2 = TPOTClassifier(generations=14, population_size= 10, offspring_size= 5,
+                                 verbosity= 3, early_stop= 5,
+                                 config_dict=
+                                 {'sklearn.svm.SVC': parameters}, 
+                                 cv = 3, scoring = 'accuracy', n_jobs=-1)
+    ga2.fit(X, y)
     t2 = time.process_time()
     T = t2 - t1
 
