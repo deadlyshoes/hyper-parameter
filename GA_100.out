@@ -1,0 +1,625 @@
+Types [2, 1] and maxint [999, 3] detected
+--- Evolve in 4000 possible combinations ---
+gen	nevals	avg     	min     	max     	std      
+0  	10    	0.915248	0.761269	0.973845	0.0722349
+1  	10    	0.956817	0.943795	0.973845	0.00937868
+2  	9     	0.963161	0.96049 	0.973845	0.00534224
+3  	9     	0.969839	0.96049 	0.973845	0.0061203 
+4  	6     	0.973511	0.972732	0.973845	0.000510025
+5  	5     	0.953589	0.772398	0.973845	0.0603979  
+6  	4     	0.973845	0.973845	0.973845	0          
+7  	6     	0.97379 	0.973289	0.973845	0.000166945
+8  	8     	0.973845	0.973845	0.973845	0          
+9  	5     	0.973845	0.973845	0.973845	0          
+10 	7     	0.973845	0.973845	0.973845	0          
+11 	9     	0.973678	0.972176	0.973845	0.000500835
+12 	2     	0.973845	0.973845	0.973845	0          
+13 	5     	0.97084 	0.943795	0.973845	0.00901503 
+14 	6     	0.973845	0.973845	0.973845	0          
+Best individual is: {'C': 15.466788224196684, 'kernel': 'rbf'}
+with fitness: 0.9738452977184195
+0
+Types [2, 1] and maxint [999, 3] detected
+/usr/local/lib/python3.6/dist-packages/deap/creator.py:141: RuntimeWarning: A class named 'FitnessMax' has already been created and it will be overwritten. Consider deleting previous creation of that class or rename it.
+  RuntimeWarning)
+/usr/local/lib/python3.6/dist-packages/deap/creator.py:141: RuntimeWarning: A class named 'Individual' has already been created and it will be overwritten. Consider deleting previous creation of that class or rename it.
+  RuntimeWarning)
+--- Evolve in 4000 possible combinations ---
+gen	nevals	avg     	min     	max     	std      
+0  	10    	0.907568	0.762938	0.973845	0.0746515
+1  	6     	0.964162	0.943795	0.973845	0.00925905
+2  	6     	0.97251 	0.96049 	0.973845	0.00400668
+3  	8     	0.973623	0.971619	0.973845	0.00066778
+4  	5     	0.973845	0.973845	0.973845	0         
+5  	5     	0.933779	0.773511	0.973845	0.0801336 
+6  	5     	0.973845	0.973845	0.973845	0         
+7  	8     	0.973845	0.973845	0.973845	0         
+8  	3     	0.973845	0.973845	0.973845	0         
+9  	8     	0.973845	0.973845	0.973845	0         
+10 	7     	0.97084 	0.943795	0.973845	0.00901503
+11 	3     	0.973845	0.973845	0.973845	0         
+12 	7     	0.973845	0.973845	0.973845	0         
+13 	4     	0.973845	0.973845	0.973845	0         
+14 	4     	0.973845	0.973845	0.973845	0         
+Best individual is: {'C': 4.450454375777621, 'kernel': 'rbf'}
+with fitness: 0.9738452977184195
+1
+Types [2, 1] and maxint [999, 3] detected
+/usr/local/lib/python3.6/dist-packages/deap/creator.py:141: RuntimeWarning: A class named 'FitnessMax' has already been created and it will be overwritten. Consider deleting previous creation of that class or rename it.
+  RuntimeWarning)
+/usr/local/lib/python3.6/dist-packages/deap/creator.py:141: RuntimeWarning: A class named 'Individual' has already been created and it will be overwritten. Consider deleting previous creation of that class or rename it.
+  RuntimeWarning)
+--- Evolve in 4000 possible combinations ---
+gen	nevals	avg     	min     	max     	std      
+0  	10    	0.906789	0.760712	0.974402	0.0939848
+1  	6     	0.974012	0.973845	0.974402	0.000255013
+2  	8     	0.973511	0.966611	0.974402	0.00231058 
+3  	4     	0.973011	0.96049 	0.974402	0.00417362 
+4  	7     	0.973011	0.96049 	0.974402	0.00417362 
+5  	7     	0.97429 	0.973845	0.974402	0.000222593
+6  	7     	0.974402	0.974402	0.974402	0          
+7  	6     	0.971341	0.943795	0.974402	0.00918197 
+8  	8     	0.974402	0.974402	0.974402	0          
+9  	3     	0.974402	0.974402	0.974402	0          
+10 	4     	0.974402	0.974402	0.974402	0          
+11 	7     	0.974402	0.974402	0.974402	0          
+12 	8     	0.956427	0.795214	0.974402	0.053738   
+13 	6     	0.974402	0.974402	0.974402	0          
+14 	7     	0.974402	0.974402	0.974402	0          
+Best individual is: {'C': 7.934677799391164, 'kernel': 'rbf'}
+with fitness: 0.9744017807456873
+2
+Types [2, 1] and maxint [999, 3] detected
+/usr/local/lib/python3.6/dist-packages/deap/creator.py:141: RuntimeWarning: A class named 'FitnessMax' has already been created and it will be overwritten. Consider deleting previous creation of that class or rename it.
+  RuntimeWarning)
+/usr/local/lib/python3.6/dist-packages/deap/creator.py:141: RuntimeWarning: A class named 'Individual' has already been created and it will be overwritten. Consider deleting previous creation of that class or rename it.
+  RuntimeWarning)
+--- Evolve in 4000 possible combinations ---
+gen	nevals	avg     	min     	max     	std     
+0  	10    	0.859321	0.762938	0.973845	0.091059
+1  	5     	0.922871	0.772955	0.974402	0.0733377
+2  	7     	0.945965	0.784641	0.974402	0.0554389
+3  	8     	0.964942	0.943795	0.974402	0.0138451
+4  	4     	0.974012	0.973289	0.974402	0.000356323
+5  	3     	0.974068	0.973845	0.974402	0.00027262 
+6  	5     	0.97429 	0.973845	0.974402	0.000222593
+7  	7     	0.974402	0.974402	0.974402	0          
+8  	6     	0.974346	0.973845	0.974402	0.000166945
+9  	7     	0.974402	0.974402	0.974402	0          
+10 	6     	0.974402	0.974402	0.974402	0          
+11 	4     	0.974402	0.974402	0.974402	0          
+12 	6     	0.974402	0.974402	0.974402	0          
+13 	9     	0.973011	0.96049 	0.974402	0.00417362 
+14 	7     	0.974402	0.974402	0.974402	0          
+Best individual is: {'C': 5.583768060138959, 'kernel': 'rbf'}
+with fitness: 0.9744017807456873
+3
+Types [2, 1] and maxint [999, 3] detected
+/usr/local/lib/python3.6/dist-packages/deap/creator.py:141: RuntimeWarning: A class named 'FitnessMax' has already been created and it will be overwritten. Consider deleting previous creation of that class or rename it.
+  RuntimeWarning)
+/usr/local/lib/python3.6/dist-packages/deap/creator.py:141: RuntimeWarning: A class named 'Individual' has already been created and it will be overwritten. Consider deleting previous creation of that class or rename it.
+  RuntimeWarning)
+--- Evolve in 4000 possible combinations ---
+gen	nevals	avg     	min     	max    	std      
+0  	10    	0.866889	0.763495	0.96049	0.0824338
+1  	7     	0.921758	0.805787	0.96049	0.053052 
+2  	5     	0.953812	0.943795	0.96049	0.0081786
+3  	7     	0.960991	0.96049 	0.965498	0.0015025
+4  	8     	0.960991	0.96049 	0.965498	0.0015025
+5  	4     	0.960991	0.96049 	0.965498	0.0015025
+6  	4     	0.961491	0.96049 	0.965498	0.00200334
+7  	3     	0.962994	0.96049 	0.965498	0.00250417
+8  	9     	0.964997	0.96049 	0.965498	0.0015025 
+9  	4     	0.964997	0.96049 	0.965498	0.0015025 
+10 	6     	0.964719	0.957707	0.965498	0.00233723
+11 	6     	0.965498	0.965498	0.965498	1.11022e-16
+12 	8     	0.965498	0.965498	0.965498	1.11022e-16
+13 	9     	0.965498	0.965498	0.965498	1.11022e-16
+14 	6     	0.965498	0.965498	0.965498	1.11022e-16
+Best individual is: {'C': 0.49782009685105577, 'kernel': 'poly'}
+with fitness: 0.9654980523094046
+4
+Types [2, 1] and maxint [999, 3] detected
+/usr/local/lib/python3.6/dist-packages/deap/creator.py:141: RuntimeWarning: A class named 'FitnessMax' has already been created and it will be overwritten. Consider deleting previous creation of that class or rename it.
+  RuntimeWarning)
+/usr/local/lib/python3.6/dist-packages/deap/creator.py:141: RuntimeWarning: A class named 'Individual' has already been created and it will be overwritten. Consider deleting previous creation of that class or rename it.
+  RuntimeWarning)
+--- Evolve in 4000 possible combinations ---
+gen	nevals	avg    	min     	max    	std      
+0  	10    	0.90345	0.762382	0.96049	0.0803918
+1  	6     	0.942571	0.79911 	0.96049	0.048075 
+2  	4     	0.96049 	0.96049 	0.96049	0        
+3  	7     	0.96049 	0.96049 	0.96049	0        
+4  	8     	0.96049 	0.96049 	0.96049	0        
+5  	5     	0.96049 	0.96049 	0.96049	0        
+6  	6     	0.96049 	0.96049 	0.96049	0        
+7  	3     	0.96049 	0.96049 	0.96049	0        
+8  	9     	0.96049 	0.96049 	0.96049	0        
+9  	5     	0.96049 	0.96049 	0.96049	0        
+10 	7     	0.96138 	0.96049 	0.964942	0.00178075
+11 	6     	0.963161	0.96049 	0.964942	0.00218096
+12 	4     	0.964942	0.964942	0.964942	0         
+13 	6     	0.962827	0.943795	0.964942	0.00634391
+14 	5     	0.964942	0.964942	0.964942	0         
+Best individual is: {'C': 0.8343943736084641, 'kernel': 'poly'}
+with fitness: 0.9649415692821369
+5
+Types [2, 1] and maxint [999, 3] detected
+/usr/local/lib/python3.6/dist-packages/deap/creator.py:141: RuntimeWarning: A class named 'FitnessMax' has already been created and it will be overwritten. Consider deleting previous creation of that class or rename it.
+  RuntimeWarning)
+/usr/local/lib/python3.6/dist-packages/deap/creator.py:141: RuntimeWarning: A class named 'Individual' has already been created and it will be overwritten. Consider deleting previous creation of that class or rename it.
+  RuntimeWarning)
+--- Evolve in 4000 possible combinations ---
+gen	nevals	avg     	min     	max     	std      
+0  	10    	0.889371	0.765721	0.973845	0.0896946
+1  	6     	0.943127	0.772398	0.973845	0.0583394
+2  	6     	0.9734  	0.972732	0.973845	0.00054524
+3  	10    	0.973623	0.972732	0.973845	0.000445186
+4  	5     	0.973734	0.972732	0.973845	0.00033389 
+5  	5     	0.973845	0.973845	0.973845	0          
+6  	7     	0.972231	0.957707	0.973845	0.0048414  
+7  	6     	0.970618	0.957707	0.973845	0.0064552  
+8  	9     	0.973845	0.973845	0.973845	0          
+9  	10    	0.972287	0.957707	0.974402	0.00486278 
+10 	8     	0.974179	0.973845	0.974402	0.00027262 
+11 	7     	0.955871	0.805787	0.974402	0.0502748  
+12 	6     	0.974402	0.974402	0.974402	0          
+13 	5     	0.974402	0.974402	0.974402	0          
+14 	6     	0.974068	0.972732	0.974402	0.000510025
+Best individual is: {'C': 6.365643034012964, 'kernel': 'rbf'}
+with fitness: 0.9744017807456873
+6
+Types [2, 1] and maxint [999, 3] detected
+/usr/local/lib/python3.6/dist-packages/deap/creator.py:141: RuntimeWarning: A class named 'FitnessMax' has already been created and it will be overwritten. Consider deleting previous creation of that class or rename it.
+  RuntimeWarning)
+/usr/local/lib/python3.6/dist-packages/deap/creator.py:141: RuntimeWarning: A class named 'Individual' has already been created and it will be overwritten. Consider deleting previous creation of that class or rename it.
+  RuntimeWarning)
+--- Evolve in 4000 possible combinations ---
+gen	nevals	avg     	min     	max     	std      
+0  	10    	0.886477	0.761825	0.973845	0.0986348
+1  	5     	0.947301	0.77852 	0.973845	0.0570475
+2  	9     	0.954313	0.77852 	0.974402	0.0585982
+3  	6     	0.974012	0.973845	0.974402	0.000255013
+4  	8     	0.97429 	0.973845	0.974402	0.000222593
+5  	6     	0.974402	0.974402	0.974402	0          
+6  	7     	0.973011	0.96049 	0.974402	0.00417362 
+7  	7     	0.974402	0.974402	0.974402	0          
+8  	1     	0.974402	0.974402	0.974402	0          
+9  	2     	0.974402	0.974402	0.974402	0          
+10 	10    	0.974402	0.974402	0.974402	0          
+11 	3     	0.974402	0.974402	0.974402	0          
+12 	7     	0.974346	0.973845	0.974402	0.000166945
+13 	10    	0.974402	0.974402	0.974402	0          
+14 	6     	0.974402	0.974402	0.974402	0          
+Best individual is: {'C': 6.814276808150898, 'kernel': 'rbf'}
+with fitness: 0.9744017807456873
+7
+Types [2, 1] and maxint [999, 3] detected
+/usr/local/lib/python3.6/dist-packages/deap/creator.py:141: RuntimeWarning: A class named 'FitnessMax' has already been created and it will be overwritten. Consider deleting previous creation of that class or rename it.
+  RuntimeWarning)
+/usr/local/lib/python3.6/dist-packages/deap/creator.py:141: RuntimeWarning: A class named 'Individual' has already been created and it will be overwritten. Consider deleting previous creation of that class or rename it.
+  RuntimeWarning)
+--- Evolve in 4000 possible combinations ---
+gen	nevals	avg     	min     	max     	std      
+0  	10    	0.904396	0.763495	0.973845	0.0795723
+1  	6     	0.955147	0.943795	0.973845	0.0100389
+2  	5     	0.961491	0.943795	0.973845	0.00790833
+3  	6     	0.968503	0.96049 	0.973845	0.00654288
+4  	7     	0.973845	0.973845	0.973845	0         
+5  	8     	0.973845	0.973845	0.973845	0         
+6  	4     	0.973845	0.973845	0.973845	0         
+7  	3     	0.973845	0.973845	0.973845	0         
+8  	5     	0.973845	0.973845	0.973845	0         
+9  	7     	0.973845	0.973845	0.973845	0         
+10 	7     	0.973845	0.973845	0.973845	0         
+11 	6     	0.97379 	0.973289	0.973845	0.000166945
+12 	3     	0.973845	0.973845	0.973845	0          
+13 	9     	0.973845	0.973289	0.974402	0.000248867
+14 	5     	0.973901	0.973845	0.974402	0.000166945
+Best individual is: {'C': 5.583768060138959, 'kernel': 'rbf'}
+with fitness: 0.9744017807456873
+8
+Types [2, 1] and maxint [999, 3] detected
+/usr/local/lib/python3.6/dist-packages/deap/creator.py:141: RuntimeWarning: A class named 'FitnessMax' has already been created and it will be overwritten. Consider deleting previous creation of that class or rename it.
+  RuntimeWarning)
+/usr/local/lib/python3.6/dist-packages/deap/creator.py:141: RuntimeWarning: A class named 'Individual' has already been created and it will be overwritten. Consider deleting previous creation of that class or rename it.
+  RuntimeWarning)
+--- Evolve in 4000 possible combinations ---
+gen	nevals	avg     	min     	max     	std      
+0  	10    	0.848692	0.762382	0.973845	0.0947687
+1  	7     	0.930328	0.764608	0.973845	0.0800724
+2  	3     	0.973845	0.973845	0.973845	0        
+3  	6     	0.973845	0.973845	0.973845	0        
+4  	4     	0.973845	0.973845	0.973845	0        
+5  	7     	0.973845	0.973845	0.973845	0        
+6  	8     	0.973845	0.973845	0.973845	0        
+7  	8     	0.973845	0.973845	0.973845	0        
+8  	6     	0.973845	0.973845	0.973845	0        
+9  	2     	0.973845	0.973845	0.973845	0        
+10 	9     	0.973845	0.973845	0.973845	0        
+11 	6     	0.973845	0.973845	0.973845	0        
+12 	1     	0.973845	0.973845	0.973845	0        
+13 	9     	0.973845	0.973845	0.973845	0        
+14 	3     	0.952643	0.761825	0.973845	0.063606 
+Best individual is: {'C': 36.796155215085605, 'kernel': 'rbf'}
+with fitness: 0.9738452977184195
+9
+Types [2, 1] and maxint [999, 3] detected
+/usr/local/lib/python3.6/dist-packages/deap/creator.py:141: RuntimeWarning: A class named 'FitnessMax' has already been created and it will be overwritten. Consider deleting previous creation of that class or rename it.
+  RuntimeWarning)
+/usr/local/lib/python3.6/dist-packages/deap/creator.py:141: RuntimeWarning: A class named 'Individual' has already been created and it will be overwritten. Consider deleting previous creation of that class or rename it.
+  RuntimeWarning)
+--- Evolve in 4000 possible combinations ---
+gen	nevals	avg     	min     	max     	std      
+0  	10    	0.935559	0.761269	0.973845	0.0629947
+1  	5     	0.963829	0.887034	0.973845	0.0259061
+2  	5     	0.973623	0.971619	0.973845	0.00066778
+3  	8     	0.973734	0.973289	0.973845	0.000222593
+4  	7     	0.973623	0.971619	0.973845	0.00066778 
+5  	8     	0.973845	0.973845	0.973845	0          
+6  	8     	0.973122	0.966611	0.973845	0.00217028 
+7  	9     	0.97251 	0.96049 	0.973845	0.00400668 
+8  	5     	0.973845	0.973845	0.973845	0          
+9  	6     	0.973845	0.973845	0.973845	0          
+10 	8     	0.973845	0.973845	0.973845	0          
+11 	8     	0.973845	0.973845	0.973845	0          
+12 	5     	0.973845	0.973845	0.973845	0          
+13 	10    	0.973845	0.973845	0.973845	0          
+14 	7     	0.973845	0.973845	0.973845	0          
+Best individual is: {'C': 41.91527789296122, 'kernel': 'rbf'}
+with fitness: 0.9738452977184195
+10
+Types [2, 1] and maxint [999, 3] detected
+/usr/local/lib/python3.6/dist-packages/deap/creator.py:141: RuntimeWarning: A class named 'FitnessMax' has already been created and it will be overwritten. Consider deleting previous creation of that class or rename it.
+  RuntimeWarning)
+/usr/local/lib/python3.6/dist-packages/deap/creator.py:141: RuntimeWarning: A class named 'Individual' has already been created and it will be overwritten. Consider deleting previous creation of that class or rename it.
+  RuntimeWarning)
+--- Evolve in 4000 possible combinations ---
+gen	nevals	avg     	min     	max     	std      
+0  	10    	0.903561	0.770173	0.973845	0.0794505
+1  	6     	0.946689	0.772398	0.973845	0.0588594
+2  	8     	0.973845	0.973845	0.973845	0        
+3  	3     	0.973845	0.973845	0.973845	0        
+4  	6     	0.972899	0.964385	0.973845	0.00283806
+5  	6     	0.973122	0.966611	0.973845	0.00217028
+6  	7     	0.973845	0.973845	0.973845	0         
+7  	7     	0.973845	0.973845	0.973845	0         
+8  	3     	0.973845	0.973845	0.973845	0         
+9  	9     	0.973845	0.973845	0.973845	0         
+10 	8     	0.973845	0.973845	0.973845	0         
+11 	7     	0.973901	0.973845	0.974402	0.000166945
+12 	6     	0.973901	0.973845	0.974402	0.000166945
+13 	6     	0.973901	0.973845	0.974402	0.000166945
+14 	4     	0.974235	0.973845	0.974402	0.000255013
+Best individual is: {'C': 7.115660443020495, 'kernel': 'rbf'}
+with fitness: 0.9744017807456873
+11
+Types [2, 1] and maxint [999, 3] detected
+/usr/local/lib/python3.6/dist-packages/deap/creator.py:141: RuntimeWarning: A class named 'FitnessMax' has already been created and it will be overwritten. Consider deleting previous creation of that class or rename it.
+  RuntimeWarning)
+/usr/local/lib/python3.6/dist-packages/deap/creator.py:141: RuntimeWarning: A class named 'Individual' has already been created and it will be overwritten. Consider deleting previous creation of that class or rename it.
+  RuntimeWarning)
+--- Evolve in 4000 possible combinations ---
+gen	nevals	avg     	min     	max     	std      
+0  	10    	0.923539	0.762938	0.973845	0.0795456
+1  	10    	0.965554	0.943795	0.974402	0.00964323
+2  	6     	0.974124	0.973289	0.974402	0.0003733 
+3  	6     	0.974402	0.974402	0.974402	0         
+4  	3     	0.974402	0.974402	0.974402	0         
+5  	6     	0.974402	0.974402	0.974402	0         
+6  	2     	0.974402	0.974402	0.974402	0         
+7  	7     	0.974402	0.974402	0.974402	0         
+8  	7     	0.97429 	0.973845	0.974402	0.000222593
+9  	5     	0.974346	0.973845	0.974402	0.000166945
+10 	8     	0.974402	0.974402	0.974402	0          
+11 	3     	0.974402	0.974402	0.974402	0          
+12 	7     	0.974402	0.974402	0.974402	0          
+13 	9     	0.974402	0.974402	0.974402	0          
+14 	4     	0.974402	0.974402	0.974402	0          
+Best individual is: {'C': 5.723825030231003, 'kernel': 'rbf'}
+with fitness: 0.9744017807456873
+12
+Types [2, 1] and maxint [999, 3] detected
+/usr/local/lib/python3.6/dist-packages/deap/creator.py:141: RuntimeWarning: A class named 'FitnessMax' has already been created and it will be overwritten. Consider deleting previous creation of that class or rename it.
+  RuntimeWarning)
+/usr/local/lib/python3.6/dist-packages/deap/creator.py:141: RuntimeWarning: A class named 'Individual' has already been created and it will be overwritten. Consider deleting previous creation of that class or rename it.
+  RuntimeWarning)
+--- Evolve in 4000 possible combinations ---
+gen	nevals	avg     	min    	max     	std      
+0  	10    	0.898943	0.77852	0.973845	0.0792644
+1  	5     	0.950139	0.943795	0.973845	0.0102858
+2  	3     	0.959488	0.943795	0.973845	0.011667 
+3  	6     	0.971174	0.96049 	0.973845	0.00534224
+4  	5     	0.973845	0.973845	0.973845	0         
+5  	6     	0.973845	0.973845	0.973845	0         
+6  	8     	0.973845	0.973845	0.973845	0         
+7  	4     	0.973845	0.973845	0.973845	0         
+8  	6     	0.973845	0.973845	0.973845	0         
+9  	6     	0.973845	0.973845	0.973845	0         
+10 	5     	0.973845	0.973845	0.973845	0         
+11 	4     	0.973845	0.973845	0.973845	0         
+12 	7     	0.97251 	0.96049 	0.973845	0.00400668
+13 	2     	0.973845	0.973845	0.973845	0         
+14 	8     	0.973845	0.973845	0.973845	0         
+Best individual is: {'C': 33.58451336512984, 'kernel': 'rbf'}
+with fitness: 0.9738452977184195
+13
+Types [2, 1] and maxint [999, 3] detected
+/usr/local/lib/python3.6/dist-packages/deap/creator.py:141: RuntimeWarning: A class named 'FitnessMax' has already been created and it will be overwritten. Consider deleting previous creation of that class or rename it.
+  RuntimeWarning)
+/usr/local/lib/python3.6/dist-packages/deap/creator.py:141: RuntimeWarning: A class named 'Individual' has already been created and it will be overwritten. Consider deleting previous creation of that class or rename it.
+  RuntimeWarning)
+--- Evolve in 4000 possible combinations ---
+gen	nevals	avg    	min     	max     	std      
+0  	10    	0.88837	0.762382	0.973845	0.0905848
+1  	8     	0.95921	0.943795	0.974402	0.013517 
+2  	4     	0.969783	0.943795	0.974402	0.00958072
+3  	9     	0.971285	0.943795	0.974402	0.00916492
+4  	4     	0.973011	0.96049 	0.974402	0.00417362
+5  	5     	0.956984	0.800223	0.974402	0.0522538 
+6  	8     	0.974346	0.973845	0.974402	0.000166945
+7  	2     	0.974402	0.974402	0.974402	0          
+8  	9     	0.974402	0.974402	0.974402	0          
+9  	4     	0.974402	0.974402	0.974402	0          
+10 	4     	0.974402	0.974402	0.974402	0          
+11 	5     	0.974402	0.974402	0.974402	0          
+12 	7     	0.972955	0.96049 	0.974402	0.00415838 
+13 	5     	0.973011	0.96049 	0.974402	0.00417362 
+14 	7     	0.97429 	0.973845	0.974402	0.000222593
+Best individual is: {'C': 7.393109002446984, 'kernel': 'rbf'}
+with fitness: 0.9744017807456873
+14
+Types [2, 1] and maxint [999, 3] detected
+/usr/local/lib/python3.6/dist-packages/deap/creator.py:141: RuntimeWarning: A class named 'FitnessMax' has already been created and it will be overwritten. Consider deleting previous creation of that class or rename it.
+  RuntimeWarning)
+/usr/local/lib/python3.6/dist-packages/deap/creator.py:141: RuntimeWarning: A class named 'Individual' has already been created and it will be overwritten. Consider deleting previous creation of that class or rename it.
+  RuntimeWarning)
+--- Evolve in 4000 possible combinations ---
+gen	nevals	avg    	min     	max     	std      
+0  	10    	0.89616	0.762938	0.973845	0.0846576
+1  	6     	0.963495	0.943795	0.973845	0.0134761
+2  	7     	0.973901	0.973845	0.974402	0.000166945
+3  	7     	0.974012	0.973845	0.974402	0.000255013
+4  	8     	0.954201	0.77685 	0.974402	0.0591173  
+5  	9     	0.973957	0.973845	0.974402	0.000222593
+6  	2     	0.974068	0.973845	0.974402	0.00027262 
+7  	7     	0.97429 	0.973845	0.974402	0.000222593
+8  	9     	0.974346	0.973845	0.974402	0.000166945
+9  	6     	0.974402	0.974402	0.974402	0          
+10 	9     	0.974402	0.974402	0.974402	0          
+11 	6     	0.974402	0.974402	0.974402	0          
+12 	6     	0.974402	0.974402	0.974402	0          
+13 	0     	0.974402	0.974402	0.974402	0          
+14 	4     	0.974402	0.974402	0.974402	0          
+Best individual is: {'C': 6.195808014596572, 'kernel': 'rbf'}
+with fitness: 0.9744017807456873
+15
+Types [2, 1] and maxint [999, 3] detected
+/usr/local/lib/python3.6/dist-packages/deap/creator.py:141: RuntimeWarning: A class named 'FitnessMax' has already been created and it will be overwritten. Consider deleting previous creation of that class or rename it.
+  RuntimeWarning)
+/usr/local/lib/python3.6/dist-packages/deap/creator.py:141: RuntimeWarning: A class named 'Individual' has already been created and it will be overwritten. Consider deleting previous creation of that class or rename it.
+  RuntimeWarning)
+--- Evolve in 4000 possible combinations ---
+gen	nevals	avg     	min     	max     	std       
+0  	10    	0.962883	0.943795	0.974402	0.00878486
+1  	2     	0.969894	0.96049 	0.974402	0.00615889
+2  	6     	0.974068	0.973845	0.974402	0.00027262
+3  	6     	0.974179	0.973845	0.974402	0.00027262
+4  	4     	0.974402	0.974402	0.974402	0         
+5  	6     	0.974346	0.973845	0.974402	0.000166945
+6  	7     	0.974402	0.974402	0.974402	0          
+7  	7     	0.974402	0.974402	0.974402	0          
+8  	3     	0.974346	0.973845	0.974402	0.000166945
+9  	8     	0.959265	0.823038	0.974402	0.045409   
+10 	7     	0.959265	0.823038	0.974402	0.045409   
+11 	6     	0.974402	0.974402	0.974402	0          
+12 	7     	0.974402	0.974402	0.974402	0          
+13 	5     	0.974402	0.974402	0.974402	0          
+14 	4     	0.974402	0.974402	0.974402	0          
+Best individual is: {'C': 3.4777765622234464, 'kernel': 'rbf'}
+with fitness: 0.9744017807456873
+16
+Types [2, 1] and maxint [999, 3] detected
+/usr/local/lib/python3.6/dist-packages/deap/creator.py:141: RuntimeWarning: A class named 'FitnessMax' has already been created and it will be overwritten. Consider deleting previous creation of that class or rename it.
+  RuntimeWarning)
+/usr/local/lib/python3.6/dist-packages/deap/creator.py:141: RuntimeWarning: A class named 'Individual' has already been created and it will be overwritten. Consider deleting previous creation of that class or rename it.
+  RuntimeWarning)
+--- Evolve in 4000 possible combinations ---
+gen	nevals	avg     	min     	max     	std     
+0  	10    	0.903617	0.770173	0.973845	0.079577
+1  	3     	0.956817	0.943795	0.973845	0.00937868
+2  	4     	0.961825	0.96049 	0.973845	0.00400668
+3  	4     	0.963161	0.96049 	0.973845	0.00534224
+4  	10    	0.965832	0.96049 	0.973845	0.00654288
+5  	9     	0.97251 	0.96049 	0.973845	0.00400668
+6  	9     	0.973845	0.973845	0.973845	0         
+7  	7     	0.957373	0.809126	0.973845	0.0494157 
+8  	4     	0.973845	0.973845	0.973845	0         
+9  	7     	0.973901	0.973845	0.974402	0.000166945
+10 	6     	0.973901	0.973845	0.974402	0.000166945
+11 	4     	0.973901	0.973845	0.974402	0.000166945
+12 	6     	0.973957	0.973845	0.974402	0.000222593
+13 	6     	0.974124	0.973845	0.974402	0.000278242
+14 	2     	0.974346	0.973845	0.974402	0.000166945
+Best individual is: {'C': 7.445447581280732, 'kernel': 'rbf'}
+with fitness: 0.9744017807456873
+17
+Types [2, 1] and maxint [999, 3] detected
+/usr/local/lib/python3.6/dist-packages/deap/creator.py:141: RuntimeWarning: A class named 'FitnessMax' has already been created and it will be overwritten. Consider deleting previous creation of that class or rename it.
+  RuntimeWarning)
+/usr/local/lib/python3.6/dist-packages/deap/creator.py:141: RuntimeWarning: A class named 'Individual' has already been created and it will be overwritten. Consider deleting previous creation of that class or rename it.
+  RuntimeWarning)
+--- Evolve in 4000 possible combinations ---
+gen	nevals	avg     	min     	max     	std      
+0  	10    	0.913745	0.779076	0.973845	0.0764313
+1  	10    	0.971174	0.96049 	0.973845	0.00534224
+2  	3     	0.973845	0.973845	0.973845	0         
+3  	8     	0.973845	0.973845	0.973845	0         
+4  	3     	0.97084 	0.943795	0.973845	0.00901503
+5  	4     	0.973845	0.973845	0.973845	0         
+6  	3     	0.973845	0.973845	0.973845	0         
+7  	7     	0.973845	0.973845	0.973845	0         
+8  	10    	0.973901	0.973289	0.974958	0.000389538
+9  	6     	0.974179	0.973845	0.974958	0.000510025
+10 	8     	0.974012	0.971063	0.974958	0.00111436 
+11 	7     	0.974847	0.973845	0.974958	0.00033389 
+12 	4     	0.974736	0.973845	0.974958	0.000445186
+13 	5     	0.974847	0.973845	0.974958	0.00033389 
+14 	5     	0.974958	0.974958	0.974958	0          
+Best individual is: {'C': 2.6276561709456847, 'kernel': 'rbf'}
+with fitness: 0.9749582637729549
+18
+Types [2, 1] and maxint [999, 3] detected
+/usr/local/lib/python3.6/dist-packages/deap/creator.py:141: RuntimeWarning: A class named 'FitnessMax' has already been created and it will be overwritten. Consider deleting previous creation of that class or rename it.
+  RuntimeWarning)
+/usr/local/lib/python3.6/dist-packages/deap/creator.py:141: RuntimeWarning: A class named 'Individual' has already been created and it will be overwritten. Consider deleting previous creation of that class or rename it.
+  RuntimeWarning)
+--- Evolve in 4000 possible combinations ---
+gen	nevals	avg     	min     	max     	std      
+0  	10    	0.957485	0.943795	0.973845	0.0142011
+1  	6     	0.97123 	0.96049 	0.974402	0.00537258
+2  	2     	0.973957	0.973845	0.974402	0.000222593
+3  	7     	0.974235	0.973845	0.974402	0.000255013
+4  	6     	0.974402	0.974402	0.974402	0          
+5  	2     	0.974402	0.974402	0.974402	0          
+6  	7     	0.973011	0.96049 	0.974402	0.00417362 
+7  	5     	0.974402	0.974402	0.974402	0          
+8  	6     	0.974402	0.974402	0.974402	0          
+9  	8     	0.974402	0.974402	0.974402	0          
+10 	6     	0.974402	0.974402	0.974402	0          
+11 	8     	0.974402	0.974402	0.974402	0          
+12 	6     	0.974346	0.973845	0.974402	0.000166945
+13 	4     	0.974402	0.974402	0.974402	0          
+14 	4     	0.974402	0.974402	0.974402	0          
+Best individual is: {'C': 5.736396009521651, 'kernel': 'rbf'}
+with fitness: 0.9744017807456873
+19
+Types [2, 1] and maxint [999, 3] detected
+/usr/local/lib/python3.6/dist-packages/deap/creator.py:141: RuntimeWarning: A class named 'FitnessMax' has already been created and it will be overwritten. Consider deleting previous creation of that class or rename it.
+  RuntimeWarning)
+/usr/local/lib/python3.6/dist-packages/deap/creator.py:141: RuntimeWarning: A class named 'Individual' has already been created and it will be overwritten. Consider deleting previous creation of that class or rename it.
+  RuntimeWarning)
+--- Evolve in 4000 possible combinations ---
+gen	nevals	avg     	min     	max     	std      
+0  	10    	0.924819	0.761269	0.973845	0.0810406
+1  	8     	0.947412	0.766277	0.973845	0.0611206
+2  	4     	0.973845	0.973845	0.973845	0        
+3  	4     	0.97084 	0.943795	0.973845	0.00901503
+4  	7     	0.973845	0.973845	0.973845	0         
+5  	9     	0.973845	0.973845	0.973845	0         
+6  	6     	0.97379 	0.973289	0.973845	0.000166945
+7  	4     	0.973957	0.973845	0.974402	0.000222593
+8  	8     	0.973845	0.971063	0.974402	0.000963857
+9  	9     	0.969839	0.943795	0.974402	0.00960574 
+10 	6     	0.9734  	0.964385	0.974402	0.00300501 
+11 	8     	0.974402	0.974402	0.974402	0          
+12 	6     	0.974402	0.974402	0.974402	0          
+13 	5     	0.971341	0.943795	0.974402	0.00918197 
+14 	8     	0.974402	0.974402	0.974402	0          
+Best individual is: {'C': 6.80351593235096, 'kernel': 'rbf'}
+with fitness: 0.9744017807456873
+20
+Types [2, 1] and maxint [999, 3] detected
+/usr/local/lib/python3.6/dist-packages/deap/creator.py:141: RuntimeWarning: A class named 'FitnessMax' has already been created and it will be overwritten. Consider deleting previous creation of that class or rename it.
+  RuntimeWarning)
+/usr/local/lib/python3.6/dist-packages/deap/creator.py:141: RuntimeWarning: A class named 'Individual' has already been created and it will be overwritten. Consider deleting previous creation of that class or rename it.
+  RuntimeWarning)
+--- Evolve in 4000 possible combinations ---
+gen	nevals	avg     	min     	max     	std      
+0  	10    	0.919199	0.766834	0.973845	0.0735071
+1  	8     	0.964162	0.943795	0.973845	0.00925905
+2  	9     	0.97251 	0.96049 	0.973845	0.00400668
+3  	7     	0.973845	0.973845	0.973845	0         
+4  	10    	0.973845	0.973845	0.973845	0         
+5  	9     	0.973845	0.973845	0.973845	0         
+6  	7     	0.972565	0.96049 	0.974402	0.00402865
+7  	10    	0.971007	0.943795	0.974402	0.00907409
+8  	7     	0.974179	0.973845	0.974402	0.00027262
+9  	7     	0.97429 	0.973845	0.974402	0.000222593
+10 	3     	0.974402	0.974402	0.974402	0          
+11 	6     	0.974402	0.974402	0.974402	0          
+12 	6     	0.974402	0.974402	0.974402	0          
+13 	6     	0.974346	0.973845	0.974402	0.000166945
+14 	4     	0.974402	0.974402	0.974402	0          
+Best individual is: {'C': 6.80351593235096, 'kernel': 'rbf'}
+with fitness: 0.9744017807456873
+21
+Types [2, 1] and maxint [999, 3] detected
+/usr/local/lib/python3.6/dist-packages/deap/creator.py:141: RuntimeWarning: A class named 'FitnessMax' has already been created and it will be overwritten. Consider deleting previous creation of that class or rename it.
+  RuntimeWarning)
+/usr/local/lib/python3.6/dist-packages/deap/creator.py:141: RuntimeWarning: A class named 'Individual' has already been created and it will be overwritten. Consider deleting previous creation of that class or rename it.
+  RuntimeWarning)
+--- Evolve in 4000 possible combinations ---
+gen	nevals	avg     	min     	max     	std      
+0  	10    	0.941068	0.764051	0.973845	0.0602923
+1  	4     	0.97251 	0.96049 	0.973845	0.00400668
+2  	8     	0.973957	0.973845	0.974958	0.00033389
+3  	7     	0.969616	0.943795	0.974958	0.00950658
+4  	2     	0.974179	0.973845	0.974958	0.000510025
+5  	10    	0.974402	0.973845	0.974958	0.000556483
+6  	6     	0.974736	0.973845	0.974958	0.000445186
+7  	7     	0.974847	0.973845	0.974958	0.00033389 
+8  	8     	0.961046	0.835838	0.974958	0.0417362  
+9  	4     	0.974958	0.974958	0.974958	0          
+10 	4     	0.974958	0.974958	0.974958	0          
+11 	4     	0.974958	0.974958	0.974958	0          
+12 	5     	0.974847	0.973845	0.974958	0.00033389 
+13 	4     	0.974958	0.974958	0.974958	0          
+14 	6     	0.974958	0.974958	0.974958	0          
+Best individual is: {'C': 2.6855582514517167, 'kernel': 'rbf'}
+with fitness: 0.9749582637729549
+22
+Types [2, 1] and maxint [999, 3] detected
+/usr/local/lib/python3.6/dist-packages/deap/creator.py:141: RuntimeWarning: A class named 'FitnessMax' has already been created and it will be overwritten. Consider deleting previous creation of that class or rename it.
+  RuntimeWarning)
+/usr/local/lib/python3.6/dist-packages/deap/creator.py:141: RuntimeWarning: A class named 'Individual' has already been created and it will be overwritten. Consider deleting previous creation of that class or rename it.
+  RuntimeWarning)
+--- Evolve in 4000 possible combinations ---
+gen	nevals	avg     	min     	max     	std      
+0  	10    	0.892042	0.773511	0.973845	0.0873402
+1  	6     	0.963272	0.943795	0.973845	0.0110627
+2  	5     	0.971174	0.96049 	0.973845	0.00534224
+3  	6     	0.97084 	0.943795	0.973845	0.00901503
+4  	7     	0.973845	0.973845	0.973845	0         
+5  	8     	0.973845	0.973845	0.973845	0         
+6  	3     	0.972454	0.959933	0.973845	0.00417362
+7  	8     	0.973845	0.973845	0.973845	0         
+8  	4     	0.973845	0.973845	0.973845	0         
+9  	2     	0.973845	0.973845	0.973845	0         
+10 	7     	0.973845	0.973845	0.973845	0         
+11 	8     	0.973845	0.973845	0.973845	0         
+12 	3     	0.973845	0.973845	0.973845	0         
+13 	7     	0.973845	0.973845	0.973845	0         
+14 	10    	0.973901	0.973845	0.974402	0.000166945
+Best individual is: {'C': 3.196917929219546, 'kernel': 'rbf'}
+with fitness: 0.9744017807456873
+23
+Types [2, 1] and maxint [999, 3] detected
+/usr/local/lib/python3.6/dist-packages/deap/creator.py:141: RuntimeWarning: A class named 'FitnessMax' has already been created and it will be overwritten. Consider deleting previous creation of that class or rename it.
+  RuntimeWarning)
+/usr/local/lib/python3.6/dist-packages/deap/creator.py:141: RuntimeWarning: A class named 'Individual' has already been created and it will be overwritten. Consider deleting previous creation of that class or rename it.
+  RuntimeWarning)
+--- Evolve in 4000 possible combinations ---
+gen	nevals	avg     	min     	max     	std      
+0  	10    	0.905064	0.770173	0.973845	0.0867115
+1  	9     	0.965721	0.96049 	0.973845	0.00641381
+2  	5     	0.969839	0.96049 	0.973845	0.0061203 
+3  	6     	0.96995 	0.934891	0.973845	0.0116861 
+4  	7     	0.971786	0.959933	0.974402	0.00451438
+5  	5     	0.972955	0.966611	0.974402	0.00229714
+6  	7     	0.973901	0.973845	0.974402	0.000166945
+7  	6     	0.973957	0.973845	0.974402	0.000222593
+8  	7     	0.974235	0.973845	0.974402	0.000255013
+9  	7     	0.974402	0.974402	0.974402	0          
+10 	3     	0.974402	0.974402	0.974402	0          
+11 	8     	0.974402	0.974402	0.974402	0          
+12 	6     	0.974346	0.973845	0.974402	0.000166945
+13 	5     	0.974402	0.974402	0.974402	0          
+14 	2     	0.974402	0.974402	0.974402	0          
+Best individual is: {'C': 6.487064880918716, 'kernel': 'rbf'}
+with fitness: 0.9744017807456873
+24
+Avg S: 0.9736004451864217
+Avg T: 0.3394721606000001
+Sdata: [0.9738452977184195, 0.9738452977184195, 0.9744017807456873, 0.9744017807456873, 0.9654980523094046, 0.9649415692821369, 0.9744017807456873, 0.9744017807456873, 0.9744017807456873, 0.9738452977184195, 0.9738452977184195, 0.9744017807456873, 0.9744017807456873, 0.9738452977184195, 0.9744017807456873, 0.9744017807456873, 0.9744017807456873, 0.9744017807456873, 0.9749582637729549, 0.9744017807456873, 0.9744017807456873, 0.9744017807456873, 0.9749582637729549, 0.9744017807456873, 0.9744017807456873]
+Tdata: [0.3423726990000002, 0.3302360670000004, 0.3510576150000002, 0.3714754610000002, 0.3315779810000006, 0.30038767300000035, 0.3733302529999998, 0.3473168840000005, 0.32226765299999993, 0.3268703249999998, 0.368877566000001, 0.3328617059999992, 0.3322996870000008, 0.3065986419999991, 0.32388884900000114, 0.35148007400000125, 0.3239621570000004, 0.33745583000000146, 0.36473860899999977, 0.31456112000000047, 0.35933199099999946, 0.3736129219999995, 0.33969817099999844, 0.32389255000000006, 0.33665152999999925]

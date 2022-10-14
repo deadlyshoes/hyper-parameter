@@ -55,6 +55,7 @@ Sdata = []
 Tdata = []
 
 for STEP in range(25):
+    print("on step:", STEP)
     t1 = time.process_time()
     optimal_configuration, info, _ = optunity.maximize(performance,
                                                   solver_name='particle swarm',
@@ -69,8 +70,6 @@ for STEP in range(25):
 
     Tdata.append(T)
     Sdata.append(info.optimum)
-
-    print(STEP)
 
 Ttotal /= 25
 Stotal /= 25

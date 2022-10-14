@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
-from sklearn.model_selection import train_test_split,cross_val_score
+from sklearn.model_selection import train_test_split,cross_val_score,ParameterGrid
 from sklearn.ensemble import RandomForestClassifier,RandomForestRegressor
 from sklearn.metrics import classification_report,confusion_matrix,accuracy_score
 from sklearn.neighbors import KNeighborsClassifier,KNeighborsRegressor
@@ -17,28 +17,34 @@ X = d.data
 y = d.target
 
 
-from tpot import TPOTClassifier
-parameters = {
+from evolutionary_search import EvolutionaryAlgorithmSearchCV
+rf_params = {
     'C': np.random.uniform(0.1,50,1000),
     "kernel":['linear','poly','rbf','sigmoid']
 }
 
-n_iter_search=100
+#n_iter_search=1000
 
 Ttotal = 0
 Stotal = 0
 Sdata = []
 Tdata = []
 
-for STEP in range(25):
+for STEP in range(2):
     t1 = time.process_time()
     clf = SVC(gamma='scale')
-    ga2 = TPOTClassifier(generations=14, population_size= 10, offspring_size= 5,
-                                 verbosity= 3, early_stop= 5,
-                                 config_dict=
-                                 {'sklearn.svm.SVC': parameters}, 
-                                 cv = 3, scoring = 'accuracy', n_jobs=-1)
-    ga2.fit(X, y)
+    ga1 = EvolutionaryAlgorithmSearchCV(estimator=clf,
+                                   params=rf_params,
+                                   scoring="accuracy",
+                                   cv=3,
+                                   verbose=0,
+                                   population_size=10,
+                                   gene_mutation_prob=0.10,
+                                   gene_crossover_prob=0.5,
+                                   tournament_size=3,
+                                   generations_number=1400,
+                                   n_jobs=16)
+    ga1.fit(X, y)
     t2 = time.process_time()
     T = t2 - t1
 

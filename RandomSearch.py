@@ -30,6 +30,7 @@ Sdata = []
 Tdata = []
 
 for STEP in range(25):
+    print("on step:", STEP)
     t1 = time.process_time()
     clf = SVC(gamma='scale')
     Random = RandomizedSearchCV(clf, param_distributions=rf_params,n_iter=n_iter_search,cv=3,scoring='accuracy',n_jobs=-1)
@@ -42,8 +43,6 @@ for STEP in range(25):
 
     Tdata.append(T)
     Sdata.append(Random.best_score_)
-
-    print(STEP)
 
 Ttotal /= 25
 Stotal /= 25

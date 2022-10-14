@@ -23,6 +23,10 @@ rf_params = {
     "kernel":['linear','poly','rbf','sigmoid']
 }
 
+d = datasets.load_digits()
+X = d.data
+y = d.target
+
 Ttotal = 0
 Stotal = 0
 Sdata = []

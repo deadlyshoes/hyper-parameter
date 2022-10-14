@@ -34,10 +34,6 @@ space = {
     "kernel":hp.choice('kernel',['linear','poly','rbf','sigmoid'])
 }
 
-print("SVM: Hyperopt estimated optimum {}".format(best))
-
-
-
 n_iter_search=100
 
 Ttotal = 0
@@ -46,12 +42,12 @@ Sdata = []
 Tdata = []
 
 for STEP in range(25):
-	trials = Trials()
+    trials = Trials()
     t1 = time.process_time()
-	best = fmin(fn=objective,
+    best = fmin(fn=objective,
             space=space,
             algo=tpe.suggest,
-            trials=trials
+            trials=trials,
             max_evals=n_iter_search)
     t2 = time.process_time()
     T = t2 - t1
