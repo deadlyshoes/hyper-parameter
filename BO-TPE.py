@@ -12,57 +12,66 @@ from sklearn.svm import SVC,SVR
 from sklearn import datasets
 import scipy.stats as stats
 
-d = datasets.load_digits()
-X = d.data
-y = d.target
+from utils import get_dataset, save
 
-#SVM
 from hyperopt import hp, fmin, tpe, STATUS_OK, Trials
 from sklearn.model_selection import cross_val_score, StratifiedKFold
-def objective(params):
-    params = {
-        'C': abs(float(params['C'])), 
-        "kernel":str(params['kernel'])
+
+def run_BOTPE(X, y, save_suffix, n_iter_search):
+    def objective(params):
+        params = {
+            'C': abs(float(params['C'])), 
+            "gamma":float(params['gamma'])
+        }
+        clf = SVC(**params)
+        score = cross_val_score(clf, X, y, scoring='accuracy', cv=StratifiedKFold(n_splits=3), n_jobs=-1).mean()
+
+        return {'loss':-score, 'status': STATUS_OK }
+
+    space = {
+        'C': hp.uniform('C', 0.0000001, 100),
+        "gamma": hp.uniform('gamma', 0, 20),
     }
-    clf = SVC(gamma='scale', **params)
-    score = cross_val_score(clf, X, y, scoring='accuracy', cv=StratifiedKFold(n_splits=3), n_jobs=-1).mean()
 
-    return {'loss':-score, 'status': STATUS_OK }
+    Ttotal = 0
+    Stotal = 0
+    Sdata = []
+    Tdata = []
 
-space = {
-    'C': hp.normal('C', 0.1, 50),
-    "kernel":hp.choice('kernel',['linear','poly','rbf','sigmoid'])
-}
+    for STEP in range(25):
+        trials = Trials()
+        t1 = time.process_time()
+        best = fmin(fn=objective,
+                space=space,
+                algo=tpe.suggest,
+                trials=trials,
+                max_evals=n_iter_search)
+        t2 = time.process_time()
+        T = t2 - t1
 
-n_iter_search=100
+        Ttotal += T
+        Stotal += min(trials.losses())
 
-Ttotal = 0
-Stotal = 0
-Sdata = []
-Tdata = []
+        Tdata.append(T)
+        Sdata.append(min(trials.losses()))
 
-for STEP in range(25):
-    trials = Trials()
-    t1 = time.process_time()
-    best = fmin(fn=objective,
-            space=space,
-            algo=tpe.suggest,
-            trials=trials,
-            max_evals=n_iter_search)
-    t2 = time.process_time()
-    T = t2 - t1
+        print(STEP)
 
-    Ttotal += T
-    Stotal += min(trials.losses())
+        save("BOTPE_100_" + save_suffix, STEP, min(trials.losses()), T)
 
-    Tdata.append(T)
-    Sdata.append(min(trials.losses()))
+    Ttotal /= 25
+    Stotal /= 25
+    print("Avg S:", Stotal)
+    print("Avg T:", Ttotal)
+    print("Sdata:", Sdata)
+    print("Tdata:", Tdata)
 
-    print(STEP)
+X, y = get_dataset("heart")
 
-Ttotal /= 25
-Stotal /= 25
-print("Avg S:", Stotal)
-print("Avg T:", Ttotal)
-print("Sdata:", Sdata)
-print("Tdata:", Tdata)
+datasets = ["heart", "haberman", "breast"]
+iter_values = [100, 1000, 10000]
+
+for dataset in datasets:
+    X, y = get_dataset(dataset)
+    for n_iter in iter_values:
+        run_BOTPE(X, y, dataset, n_iter)

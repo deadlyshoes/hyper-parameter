@@ -29,13 +29,13 @@ Stotal = 0
 Sdata = []
 Tdata = []
 
-for STEP in range(25):
+for STEP in range(1):
     print("on step:", STEP)
-    t1 = time.process_time()
+    t1 = time.time()
     clf = SVC(gamma='scale')
     Random = RandomizedSearchCV(clf, param_distributions=rf_params,n_iter=n_iter_search,cv=3,scoring='accuracy',n_jobs=-1)
     Random.fit(X, y)
-    t2 = time.process_time()
+    t2 = time.time()
     T = t2 - t1
 
     Ttotal += T
