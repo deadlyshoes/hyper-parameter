@@ -1,0 +1,547 @@
+on step: 0
+on step: 1
+on step: 2
+on step: 3
+on step: 4
+on step: 5
+on step: 6
+on step: 7
+on step: 8
+on step: 9
+on step: 10
+on step: 11
+on step: 12
+on step: 13
+on step: 14
+on step: 15
+on step: 16
+on step: 17
+on step: 18
+on step: 19
+on step: 20
+on step: 21
+on step: 22
+on step: 23
+on step: 24
+Avg S: 0.7644444444444445
+Avg T: 6.3622073959200005
+Sdata: [0.7679738562091503, 0.7647058823529411, 0.7679738562091503, 0.761437908496732, 0.7647058823529411, 0.761437908496732, 0.761437908496732, 0.7679738562091503, 0.7647058823529411, 0.7712418300653594, 0.7647058823529411, 0.7647058823529411, 0.7647058823529411, 0.761437908496732, 0.7647058823529411, 0.7679738562091503, 0.761437908496732, 0.7647058823529411, 0.761437908496732, 0.7647058823529411, 0.7647058823529411, 0.7647058823529411, 0.761437908496732, 0.761437908496732, 0.7647058823529411]
+Tdata: [6.610251322999999, 6.434986302999999, 6.730408773000001, 6.344677860000001, 6.621574620999997, 6.229507157999997, 6.027221062000002, 4.426800088999997, 6.801207587, 5.0186108650000065, 6.710072229999994, 6.571471349999996, 6.420010762000004, 5.830676782000012, 6.889561054999987, 6.6687552340000025, 6.213982034000011, 7.195510992999999, 5.053363472000001, 7.285039344999987, 6.509127946999996, 6.261130395000009, 6.785847865000022, 6.384829338000003, 7.030560455]
+on step: 0
+on step: 1
+on step: 2
+on step: 3
+on step: 4
+on step: 5
+on step: 6
+on step: 7
+on step: 8
+on step: 9
+on step: 10
+on step: 11
+on step: 12
+on step: 13
+on step: 14
+on step: 15
+on step: 16
+on step: 17
+on step: 18
+on step: 19
+on step: 20
+on step: 21
+on step: 22
+on step: 23
+on step: 24
+Avg S: 0.7678431372549019
+Avg T: 67.72755138052001
+Sdata: [0.7647058823529411, 0.7679738562091503, 0.7712418300653594, 0.7679738562091503, 0.7679738562091503, 0.7647058823529411, 0.7679738562091503, 0.7679738562091503, 0.7647058823529411, 0.7712418300653594, 0.7647058823529411, 0.7712418300653594, 0.7647058823529411, 0.7712418300653594, 0.7647058823529411, 0.7679738562091503, 0.7679738562091503, 0.7679738562091503, 0.7647058823529411, 0.7679738562091503, 0.7679738562091503, 0.7712418300653594, 0.7679738562091503, 0.7712418300653594, 0.7679738562091503]
+Tdata: [69.24400103299999, 73.74223465099999, 54.680681069, 73.139544457, 74.71339129299997, 66.18563168999998, 73.07161340599998, 73.42808546699996, 70.91429854399996, 55.93811545699998, 70.94730296300008, 55.55001474699998, 60.94540671800007, 56.271899761999975, 70.74960213999998, 71.68345620100013, 76.17201225500003, 75.24121377300003, 71.80898138500015, 74.35577901700003, 66.13151139900015, 54.48171280199995, 73.46265147100007, 55.997231703000125, 74.33241111000007]
+on step: 0
+on step: 1
+on step: 2
+on step: 3
+on step: 4
+on step: 5
+on step: 6
+on step: 7
+on step: 8
+on step: 9
+on step: 10
+on step: 11
+on step: 12
+on step: 13
+on step: 14
+on step: 15
+on step: 16
+on step: 17
+on step: 18
+on step: 19
+on step: 20
+on step: 21
+on step: 22
+on step: 23
+on step: 24
+Avg S: 0.7695424836601306
+Avg T: 640.2714435724
+Sdata: [0.7712418300653594, 0.7647058823529411, 0.7712418300653594, 0.7679738562091503, 0.7712418300653594, 0.7712418300653594, 0.7712418300653594, 0.7679738562091503, 0.7679738562091503, 0.7679738562091503, 0.7712418300653594, 0.7712418300653594, 0.7712418300653594, 0.7679738562091503, 0.7679738562091503, 0.7712418300653594, 0.7712418300653594, 0.7679738562091503, 0.7712418300653594, 0.7712418300653594, 0.7679738562091503, 0.7679738562091503, 0.7679738562091503, 0.7679738562091503, 0.7712418300653594]
+Tdata: [588.8862496839997, 688.5816369469999, 583.7456701429996, 740.9163740169997, 588.1743051059993, 586.2951205100007, 579.8643239880003, 745.3513926999995, 733.2021684270003, 734.9366758909991, 579.2456078480009, 577.1524616410006, 579.4978751760009, 738.0605428569997, 733.3990745570009, 577.8548773210005, 571.7142178249997, 700.8315390570006, 557.2413693340004, 557.708249704001, 708.1439468200006, 723.7662412760001, 663.060887974998, 658.6735634519973, 510.4817170540009]
+on step: 0
+on step: 1
+on step: 2
+on step: 3
+on step: 4
+on step: 5
+on step: 6
+on step: 7
+on step: 8
+on step: 9
+on step: 10
+on step: 11
+on step: 12
+on step: 13
+on step: 14
+on step: 15
+on step: 16
+on step: 17
+on step: 18
+on step: 19
+on step: 20
+on step: 21
+on step: 22
+on step: 23
+on step: 24
+Avg S: 0.8365925925925926
+Avg T: 4.017216218799876
+Sdata: [0.837037037037037, 0.8037037037037037, 0.8148148148148148, 0.8444444444444444, 0.8333333333333334, 0.837037037037037, 0.8333333333333334, 0.8296296296296296, 0.8481481481481481, 0.8444444444444444, 0.8407407407407407, 0.8444444444444444, 0.8481481481481481, 0.837037037037037, 0.8407407407407407, 0.837037037037037, 0.8444444444444444, 0.8296296296296296, 0.8481481481481481, 0.811111111111111, 0.8444444444444444, 0.8444444444444444, 0.8407407407407407, 0.8444444444444444, 0.8333333333333334]
+Tdata: [4.281528865998553, 4.236283340000227, 4.197772898001858, 4.028645128997596, 4.0081742010006565, 3.82370627599812, 3.988952507999784, 4.01950647600097, 3.7049640889999864, 3.7105045079988486, 3.985150329001044, 3.911246960000426, 3.907990477000567, 4.219730520999292, 4.383409015001234, 3.763731603998167, 4.194905918997392, 3.5652437179996923, 3.8437336679999135, 4.173667826999008, 4.163816054002382, 4.201770226998633, 4.182917785001337, 4.207798586001445, 3.7252544889997807]
+on step: 0
+on step: 1
+on step: 2
+on step: 3
+on step: 4
+on step: 5
+on step: 6
+on step: 7
+on step: 8
+on step: 9
+on step: 10
+on step: 11
+on step: 12
+on step: 13
+on step: 14
+on step: 15
+on step: 16
+on step: 17
+on step: 18
+on step: 19
+on step: 20
+on step: 21
+on step: 22
+on step: 23
+on step: 24
+Avg S: 0.8509629629629626
+Avg T: 41.36744450096026
+Sdata: [0.8518518518518517, 0.8518518518518517, 0.8518518518518517, 0.8518518518518517, 0.8481481481481481, 0.8518518518518517, 0.8518518518518517, 0.8518518518518517, 0.8518518518518517, 0.8518518518518517, 0.8518518518518517, 0.8481481481481481, 0.8518518518518517, 0.8518518518518517, 0.8518518518518517, 0.8481481481481481, 0.8518518518518517, 0.8518518518518517, 0.8481481481481481, 0.8518518518518517, 0.8518518518518517, 0.8518518518518517, 0.8518518518518517, 0.8481481481481481, 0.8481481481481481]
+Tdata: [43.15319136499966, 46.40592368899888, 42.719491317002394, 41.110477066002204, 41.57910928699857, 39.79642876700018, 44.5375554179991, 40.948616499998025, 39.81394739100142, 40.07945785999982, 40.725305410000146, 44.766980664000585, 41.09906641600173, 40.16574513199885, 42.10443310199844, 41.40790242000003, 39.96544321500187, 39.49731953999799, 41.05682383900057, 40.96623866500158, 40.08965150199947, 38.615602539000975, 40.3157736380017, 41.96708705000128, 41.29854073200113]
+on step: 0
+on step: 1
+on step: 2
+on step: 3
+on step: 4
+on step: 5
+on step: 6
+on step: 7
+on step: 8
+on step: 9
+on step: 10
+on step: 11
+on step: 12
+on step: 13
+on step: 14
+on step: 15
+on step: 16
+on step: 17
+on step: 18
+on step: 19
+on step: 20
+on step: 21
+on step: 22
+on step: 23
+on step: 24
+Avg S: 0.84637037037037
+Avg T: 420.96645891564026
+Sdata: [0.8518518518518517, 0.8518518518518517, 0.8518518518518517, 0.8518518518518517, 0.8518518518518517, 0.8518518518518517, 0.8222222222222223, 0.8518518518518517, 0.825925925925926, 0.8518518518518517, 0.8518518518518517, 0.825925925925926, 0.8518518518518517, 0.8518518518518517, 0.8518518518518517, 0.8518518518518517, 0.8518518518518517, 0.8518518518518517, 0.8518518518518517, 0.8518518518518517, 0.8518518518518517, 0.825925925925926, 0.8518518518518517, 0.8222222222222223, 0.8518518518518517]
+Tdata: [402.5704464449991, 397.70923166300054, 415.0444460239996, 419.5156075349987, 426.89228439400176, 390.9176757299974, 476.40327764099857, 402.0270151850018, 480.5038249749996, 398.31313474700073, 404.44471458000044, 488.13769949199923, 437.4442002579999, 406.03669469099987, 397.8174112520028, 396.58631586999763, 401.5148818999987, 414.291822377003, 405.4365907270003, 408.06824370600225, 401.3119293930031, 472.00094610700035, 397.8820853819998, 471.0580793240006, 412.2329134930005]
+['no-recurrence-events', '30-39', 'premeno', '30-34', '0-2', 'no', '3', 'left', 'left_low', 'no\n']
+['no-recurrence-events', '40-49', 'premeno', '20-24', '0-2', 'no', '2', 'right', 'right_up', 'no\n']
+['no-recurrence-events', '40-49', 'premeno', '20-24', '0-2', 'no', '2', 'left', 'left_low', 'no\n']
+['no-recurrence-events', '60-69', 'ge40', '15-19', '0-2', 'no', '2', 'right', 'left_up', 'no\n']
+['no-recurrence-events', '40-49', 'premeno', '0-4', '0-2', 'no', '2', 'right', 'right_low', 'no\n']
+['no-recurrence-events', '60-69', 'ge40', '15-19', '0-2', 'no', '2', 'left', 'left_low', 'no\n']
+['no-recurrence-events', '50-59', 'premeno', '25-29', '0-2', 'no', '2', 'left', 'left_low', 'no\n']
+['no-recurrence-events', '60-69', 'ge40', '20-24', '0-2', 'no', '1', 'left', 'left_low', 'no\n']
+['no-recurrence-events', '40-49', 'premeno', '50-54', '0-2', 'no', '2', 'left', 'left_low', 'no\n']
+['no-recurrence-events', '40-49', 'premeno', '20-24', '0-2', 'no', '2', 'right', 'left_up', 'no\n']
+['no-recurrence-events', '40-49', 'premeno', '0-4', '0-2', 'no', '3', 'left', 'central', 'no\n']
+['no-recurrence-events', '50-59', 'ge40', '25-29', '0-2', 'no', '2', 'left', 'left_low', 'no\n']
+['no-recurrence-events', '60-69', 'lt40', '10-14', '0-2', 'no', '1', 'left', 'right_up', 'no\n']
+['no-recurrence-events', '50-59', 'ge40', '25-29', '0-2', 'no', '3', 'left', 'right_up', 'no\n']
+['no-recurrence-events', '40-49', 'premeno', '30-34', '0-2', 'no', '3', 'left', 'left_up', 'no\n']
+['no-recurrence-events', '60-69', 'lt40', '30-34', '0-2', 'no', '1', 'left', 'left_low', 'no\n']
+['no-recurrence-events', '40-49', 'premeno', '15-19', '0-2', 'no', '2', 'left', 'left_low', 'no\n']
+['no-recurrence-events', '50-59', 'premeno', '30-34', '0-2', 'no', '3', 'left', 'left_low', 'no\n']
+['no-recurrence-events', '60-69', 'ge40', '30-34', '0-2', 'no', '3', 'left', 'left_low', 'no\n']
+['no-recurrence-events', '50-59', 'ge40', '30-34', '0-2', 'no', '1', 'right', 'right_up', 'no\n']
+['no-recurrence-events', '50-59', 'ge40', '40-44', '0-2', 'no', '2', 'left', 'left_low', 'no\n']
+['no-recurrence-events', '60-69', 'ge40', '15-19', '0-2', 'no', '2', 'left', 'left_low', 'no\n']
+['no-recurrence-events', '30-39', 'premeno', '25-29', '0-2', 'no', '2', 'right', 'left_low', 'no\n']
+['no-recurrence-events', '50-59', 'premeno', '40-44', '0-2', 'no', '2', 'left', 'left_up', 'no\n']
+['no-recurrence-events', '50-59', 'premeno', '35-39', '0-2', 'no', '2', 'right', 'left_up', 'no\n']
+['no-recurrence-events', '40-49', 'premeno', '25-29', '0-2', 'no', '2', 'left', 'left_up', 'no\n']
+['no-recurrence-events', '50-59', 'premeno', '20-24', '0-2', 'no', '1', 'left', 'left_low', 'no\n']
+['no-recurrence-events', '60-69', 'ge40', '25-29', '0-2', 'no', '3', 'right', 'left_up', 'no\n']
+['no-recurrence-events', '40-49', 'premeno', '40-44', '0-2', 'no', '2', 'right', 'left_low', 'no\n']
+['no-recurrence-events', '60-69', 'ge40', '30-34', '0-2', 'no', '2', 'left', 'left_low', 'no\n']
+['no-recurrence-events', '50-59', 'ge40', '40-44', '0-2', 'no', '3', 'right', 'left_up', 'no\n']
+['no-recurrence-events', '50-59', 'premeno', '15-19', '0-2', 'no', '2', 'right', 'left_low', 'no\n']
+['no-recurrence-events', '50-59', 'premeno', '10-14', '0-2', 'no', '3', 'left', 'left_low', 'no\n']
+['no-recurrence-events', '50-59', 'ge40', '10-14', '0-2', 'no', '1', 'right', 'left_up', 'no\n']
+['no-recurrence-events', '50-59', 'ge40', '10-14', '0-2', 'no', '1', 'left', 'left_up', 'no\n']
+['no-recurrence-events', '30-39', 'premeno', '30-34', '0-2', 'no', '2', 'left', 'left_up', 'no\n']
+['no-recurrence-events', '50-59', 'ge40', '0-4', '0-2', 'no', '2', 'left', 'central', 'no\n']
+['no-recurrence-events', '50-59', 'ge40', '15-19', '0-2', 'no', '1', 'right', 'central', 'no\n']
+['no-recurrence-events', '40-49', 'premeno', '10-14', '0-2', 'no', '2', 'left', 'left_low', 'no\n']
+['no-recurrence-events', '40-49', 'premeno', '30-34', '0-2', 'no', '1', 'left', 'left_low', 'no\n']
+['no-recurrence-events', '50-59', 'ge40', '20-24', '0-2', 'no', '1', 'right', 'left_low', 'no\n']
+['no-recurrence-events', '60-69', 'ge40', '25-29', '0-2', 'no', '2', 'left', 'left_low', 'no\n']
+['no-recurrence-events', '60-69', 'ge40', '5-9', '0-2', 'no', '1', 'left', 'central', 'no\n']
+['no-recurrence-events', '40-49', 'premeno', '10-14', '0-2', 'no', '2', 'left', 'left_up', 'no\n']
+['no-recurrence-events', '50-59', 'ge40', '50-54', '0-2', 'no', '1', 'right', 'right_up', 'no\n']
+['no-recurrence-events', '50-59', 'ge40', '30-34', '0-2', 'no', '1', 'left', 'left_up', 'no\n']
+['no-recurrence-events', '40-49', 'premeno', '25-29', '0-2', 'no', '2', 'right', 'left_low', 'no\n']
+['no-recurrence-events', '50-59', 'premeno', '25-29', '0-2', 'no', '1', 'right', 'left_up', 'no\n']
+['no-recurrence-events', '40-49', 'premeno', '20-24', '0-2', 'no', '1', 'right', 'right_up', 'no\n']
+['no-recurrence-events', '40-49', 'premeno', '20-24', '0-2', 'no', '1', 'right', 'left_low', 'no\n']
+['no-recurrence-events', '50-59', 'lt40', '15-19', '0-2', 'no', '2', 'left', 'left_low', 'no\n']
+['no-recurrence-events', '30-39', 'premeno', '20-24', '0-2', 'no', '2', 'left', 'right_low', 'no\n']
+['no-recurrence-events', '50-59', 'premeno', '15-19', '0-2', 'no', '1', 'left', 'left_low', 'no\n']
+['no-recurrence-events', '70-79', 'ge40', '20-24', '0-2', 'no', '3', 'left', 'left_up', 'no\n']
+['no-recurrence-events', '70-79', 'ge40', '40-44', '0-2', 'no', '1', 'right', 'left_up', 'no\n']
+['no-recurrence-events', '70-79', 'ge40', '40-44', '0-2', 'no', '1', 'right', 'right_up', 'no\n']
+['no-recurrence-events', '50-59', 'ge40', '0-4', '0-2', 'no', '1', 'right', 'central', 'no\n']
+['no-recurrence-events', '50-59', 'ge40', '5-9', '0-2', 'no', '2', 'right', 'right_up', 'no\n']
+['no-recurrence-events', '60-69', 'ge40', '30-34', '0-2', 'no', '1', 'left', 'left_up', 'no\n']
+['no-recurrence-events', '60-69', 'ge40', '15-19', '0-2', 'no', '1', 'right', 'left_up', 'no\n']
+['no-recurrence-events', '40-49', 'premeno', '20-24', '0-2', 'no', '2', 'left', 'central', 'no\n']
+['no-recurrence-events', '40-49', 'premeno', '10-14', '0-2', 'no', '1', 'right', 'right_low', 'no\n']
+['no-recurrence-events', '50-59', 'ge40', '0-4', '0-2', 'no', '1', 'left', 'left_low', 'no\n']
+['no-recurrence-events', '20-29', 'premeno', '35-39', '0-2', 'no', '2', 'right', 'right_up', 'no\n']
+['no-recurrence-events', '40-49', 'premeno', '25-29', '0-2', 'no', '1', 'left', 'right_low', 'no\n']
+['no-recurrence-events', '40-49', 'premeno', '10-14', '0-2', 'no', '1', 'right', 'left_up', 'no\n']
+['no-recurrence-events', '40-49', 'premeno', '25-29', '0-2', 'no', '1', 'right', 'right_low', 'no\n']
+['no-recurrence-events', '50-59', 'ge40', '20-24', '0-2', 'no', '3', 'left', 'left_up', 'no\n']
+['no-recurrence-events', '50-59', 'ge40', '35-39', '0-2', 'no', '3', 'left', 'left_low', 'no\n']
+['no-recurrence-events', '60-69', 'ge40', '50-54', '0-2', 'no', '2', 'left', 'left_low', 'no\n']
+['no-recurrence-events', '60-69', 'ge40', '10-14', '0-2', 'no', '1', 'left', 'left_low', 'no\n']
+['no-recurrence-events', '40-49', 'premeno', '25-29', '0-2', 'no', '2', 'right', 'left_up', 'no\n']
+['no-recurrence-events', '60-69', 'ge40', '20-24', '0-2', 'no', '2', 'left', 'left_up', 'no\n']
+['no-recurrence-events', '50-59', 'premeno', '15-19', '0-2', 'no', '2', 'right', 'right_low', 'no\n']
+['no-recurrence-events', '30-39', 'premeno', '5-9', '0-2', 'no', '2', 'left', 'right_low', 'no\n']
+['no-recurrence-events', '50-59', 'ge40', '10-14', '0-2', 'no', '1', 'left', 'left_low', 'no\n']
+['no-recurrence-events', '50-59', 'ge40', '10-14', '0-2', 'no', '2', 'left', 'left_low', 'no\n']
+['no-recurrence-events', '30-39', 'premeno', '25-29', '0-2', 'no', '1', 'left', 'central', 'no\n']
+['no-recurrence-events', '50-59', 'premeno', '25-29', '0-2', 'no', '2', 'left', 'left_low', 'no\n']
+['no-recurrence-events', '40-49', 'premeno', '25-29', '0-2', 'no', '2', 'right', 'central', 'no\n']
+['no-recurrence-events', '50-59', 'ge40', '10-14', '0-2', 'no', '2', 'right', 'left_low', 'no\n']
+['no-recurrence-events', '60-69', 'ge40', '10-14', '0-2', 'no', '1', 'left', 'left_up', 'no\n']
+['no-recurrence-events', '60-69', 'ge40', '15-19', '0-2', 'no', '2', 'right', 'left_low', 'no\n']
+['no-recurrence-events', '50-59', 'ge40', '15-19', '0-2', 'no', '2', 'right', 'left_low', 'no\n']
+['no-recurrence-events', '40-49', 'premeno', '20-24', '0-2', 'no', '1', 'left', 'right_low', 'no\n']
+['no-recurrence-events', '50-59', 'ge40', '35-39', '0-2', 'no', '3', 'left', 'left_up', 'no\n']
+['no-recurrence-events', '60-69', 'ge40', '25-29', '0-2', 'no', '2', 'right', 'left_low', 'no\n']
+['no-recurrence-events', '70-79', 'ge40', '0-4', '0-2', 'no', '1', 'left', 'right_low', 'no\n']
+['no-recurrence-events', '50-59', 'ge40', '20-24', '0-2', 'no', '3', 'right', 'left_up', 'no\n']
+['no-recurrence-events', '40-49', 'premeno', '40-44', '0-2', 'no', '1', 'right', 'left_up', 'no\n']
+['no-recurrence-events', '30-39', 'premeno', '0-4', '0-2', 'no', '2', 'right', 'central', 'no\n']
+['no-recurrence-events', '50-59', 'ge40', '20-24', '0-2', 'no', '3', 'left', 'left_up', 'no\n']
+['no-recurrence-events', '50-59', 'ge40', '25-29', '0-2', 'no', '2', 'right', 'left_up', 'no\n']
+['no-recurrence-events', '60-69', 'ge40', '20-24', '0-2', 'no', '2', 'right', 'left_up', 'no\n']
+['no-recurrence-events', '50-59', 'premeno', '10-14', '0-2', 'no', '1', 'left', 'left_low', 'no\n']
+['no-recurrence-events', '40-49', 'premeno', '30-34', '0-2', 'no', '2', 'right', 'right_low', 'no\n']
+['no-recurrence-events', '60-69', 'ge40', '30-34', '0-2', 'no', '2', 'left', 'left_up', 'no\n']
+['no-recurrence-events', '60-69', 'ge40', '15-19', '0-2', 'no', '2', 'right', 'left_up', 'no\n']
+['no-recurrence-events', '40-49', 'premeno', '30-34', '0-2', 'no', '1', 'left', 'right_up', 'no\n']
+['no-recurrence-events', '30-39', 'premeno', '25-29', '0-2', 'no', '2', 'left', 'left_low', 'no\n']
+['no-recurrence-events', '40-49', 'ge40', '20-24', '0-2', 'no', '3', 'left', 'left_low', 'no\n']
+['no-recurrence-events', '50-59', 'ge40', '30-34', '0-2', 'no', '3', 'right', 'left_low', 'no\n']
+['no-recurrence-events', '50-59', 'premeno', '25-29', '0-2', 'no', '2', 'right', 'right_low', 'no\n']
+['no-recurrence-events', '40-49', 'premeno', '20-24', '0-2', 'no', '2', 'left', 'right_low', 'no\n']
+['no-recurrence-events', '40-49', 'premeno', '10-14', '0-2', 'no', '2', 'right', 'left_low', 'no\n']
+['no-recurrence-events', '40-49', 'premeno', '30-34', '0-2', 'no', '1', 'right', 'left_up', 'no\n']
+['no-recurrence-events', '40-49', 'premeno', '20-24', '0-2', 'no', '2', 'left', 'left_up', 'no\n']
+['no-recurrence-events', '30-39', 'premeno', '40-44', '0-2', 'no', '2', 'right', 'right_up', 'no\n']
+['no-recurrence-events', '40-49', 'premeno', '30-34', '0-2', 'no', '3', 'right', 'right_up', 'no\n']
+['no-recurrence-events', '60-69', 'ge40', '30-34', '0-2', 'no', '1', 'right', 'left_up', 'no\n']
+['no-recurrence-events', '50-59', 'ge40', '25-29', '0-2', 'no', '1', 'left', 'left_low', 'no\n']
+['no-recurrence-events', '50-59', 'ge40', '15-19', '0-2', 'no', '1', 'right', 'central', 'no\n']
+['no-recurrence-events', '40-49', 'premeno', '20-24', '0-2', 'no', '2', 'right', 'left_up', 'no\n']
+['no-recurrence-events', '40-49', 'premeno', '10-14', '0-2', 'no', '1', 'right', 'left_up', 'no\n']
+['no-recurrence-events', '40-49', 'premeno', '35-39', '0-2', 'no', '2', 'right', 'right_up', 'no\n']
+['no-recurrence-events', '50-59', 'ge40', '20-24', '0-2', 'no', '2', 'right', 'left_up', 'no\n']
+['no-recurrence-events', '30-39', 'premeno', '15-19', '0-2', 'no', '1', 'left', 'left_low', 'no\n']
+['no-recurrence-events', '40-49', 'ge40', '20-24', '0-2', 'no', '3', 'left', 'left_up', 'no\n']
+['no-recurrence-events', '30-39', 'premeno', '10-14', '0-2', 'no', '1', 'right', 'left_low', 'no\n']
+['no-recurrence-events', '60-69', 'ge40', '15-19', '0-2', 'no', '1', 'left', 'right_low', 'no\n']
+['no-recurrence-events', '60-69', 'ge40', '20-24', '0-2', 'no', '1', 'left', 'left_low', 'no\n']
+['no-recurrence-events', '50-59', 'ge40', '15-19', '0-2', 'no', '2', 'right', 'right_up', 'no\n']
+['no-recurrence-events', '50-59', 'ge40', '40-44', '0-2', 'no', '3', 'left', 'left_up', 'no\n']
+['no-recurrence-events', '50-59', 'ge40', '30-34', '0-2', 'no', '1', 'right', 'left_low', 'no\n']
+['no-recurrence-events', '60-69', 'ge40', '10-14', '0-2', 'no', '1', 'right', 'left_low', 'no\n']
+['no-recurrence-events', '70-79', 'ge40', '10-14', '0-2', 'no', '2', 'left', 'central', 'no\n']
+['no-recurrence-events', '30-39', 'premeno', '30-34', '6-8', 'yes', '2', 'right', 'right_up', 'no\n']
+['no-recurrence-events', '30-39', 'premeno', '25-29', '6-8', 'yes', '2', 'right', 'left_up', 'yes\n']
+['no-recurrence-events', '50-59', 'premeno', '25-29', '0-2', 'yes', '2', 'left', 'left_up', 'no\n']
+['no-recurrence-events', '40-49', 'premeno', '35-39', '9-11', 'yes', '2', 'right', 'left_up', 'yes\n']
+['no-recurrence-events', '40-49', 'premeno', '35-39', '9-11', 'yes', '2', 'right', 'right_up', 'yes\n']
+['no-recurrence-events', '40-49', 'premeno', '40-44', '3-5', 'yes', '3', 'right', 'left_up', 'yes\n']
+['no-recurrence-events', '40-49', 'premeno', '30-34', '6-8', 'no', '2', 'left', 'left_up', 'no\n']
+['no-recurrence-events', '50-59', 'ge40', '40-44', '0-2', 'no', '3', 'left', 'right_up', 'no\n']
+['no-recurrence-events', '60-69', 'ge40', '30-34', '0-2', 'no', '2', 'left', 'left_low', 'yes\n']
+['no-recurrence-events', '30-39', 'premeno', '20-24', '3-5', 'no', '2', 'right', 'central', 'no\n']
+['no-recurrence-events', '30-39', 'premeno', '40-44', '3-5', 'no', '3', 'right', 'right_up', 'yes\n']
+['no-recurrence-events', '40-49', 'premeno', '5-9', '0-2', 'no', '1', 'left', 'left_low', 'yes\n']
+['no-recurrence-events', '30-39', 'premeno', '40-44', '0-2', 'no', '2', 'left', 'left_low', 'yes\n']
+['no-recurrence-events', '40-49', 'premeno', '30-34', '0-2', 'no', '2', 'left', 'right_low', 'no\n']
+['no-recurrence-events', '50-59', 'ge40', '40-44', '3-5', 'yes', '2', 'left', 'left_low', 'no\n']
+['no-recurrence-events', '50-59', 'premeno', '20-24', '3-5', 'yes', '2', 'left', 'left_low', 'no\n']
+['no-recurrence-events', '60-69', 'ge40', '10-14', '0-2', 'no', '1', 'left', 'left_up', 'no\n']
+['no-recurrence-events', '40-49', 'premeno', '45-49', '0-2', 'no', '2', 'left', 'left_low', 'yes\n']
+['no-recurrence-events', '60-69', 'ge40', '45-49', '6-8', 'yes', '3', 'left', 'central', 'no\n']
+['no-recurrence-events', '40-49', 'premeno', '25-29', '0-2', '?', '2', 'left', 'right_low', 'yes\n']
+['no-recurrence-events', '60-69', 'ge40', '50-54', '0-2', 'no', '2', 'right', 'left_up', 'yes\n']
+['no-recurrence-events', '50-59', 'premeno', '30-34', '3-5', 'yes', '2', 'left', 'left_low', 'yes\n']
+['no-recurrence-events', '30-39', 'premeno', '20-24', '0-2', 'no', '3', 'left', 'central', 'no\n']
+['no-recurrence-events', '50-59', 'lt40', '30-34', '0-2', 'no', '3', 'right', 'left_up', 'no\n']
+['no-recurrence-events', '50-59', 'ge40', '25-29', '15-17', 'yes', '3', 'right', 'left_up', 'no\n']
+['no-recurrence-events', '60-69', 'ge40', '30-34', '3-5', 'yes', '3', 'left', 'left_low', 'no\n']
+['no-recurrence-events', '50-59', 'ge40', '35-39', '15-17', 'no', '3', 'left', 'left_low', 'no\n']
+['no-recurrence-events', '60-69', 'ge40', '15-19', '0-2', 'no', '3', 'right', 'left_up', 'yes\n']
+['no-recurrence-events', '30-39', 'lt40', '15-19', '0-2', 'no', '3', 'right', 'left_up', 'no\n']
+['no-recurrence-events', '60-69', 'ge40', '40-44', '3-5', 'no', '2', 'right', 'left_up', 'yes\n']
+['no-recurrence-events', '50-59', 'ge40', '25-29', '3-5', 'yes', '3', 'right', 'left_up', 'no\n']
+['no-recurrence-events', '50-59', 'premeno', '30-34', '0-2', 'no', '1', 'left', 'central', 'no\n']
+['no-recurrence-events', '50-59', 'ge40', '30-34', '0-2', 'no', '1', 'right', 'central', 'no\n']
+['no-recurrence-events', '40-49', 'premeno', '35-39', '0-2', 'no', '1', 'left', 'left_low', 'no\n']
+['no-recurrence-events', '40-49', 'premeno', '25-29', '0-2', 'no', '3', 'right', 'left_up', 'yes\n']
+['no-recurrence-events', '40-49', 'premeno', '30-34', '3-5', 'yes', '2', 'right', 'left_low', 'no\n']
+['no-recurrence-events', '60-69', 'ge40', '10-14', '0-2', 'no', '2', 'right', 'left_up', 'yes\n']
+['no-recurrence-events', '60-69', 'ge40', '25-29', '3-5', '?', '1', 'right', 'left_up', 'yes\n']
+['no-recurrence-events', '60-69', 'ge40', '25-29', '3-5', '?', '1', 'right', 'left_low', 'yes\n']
+['no-recurrence-events', '40-49', 'premeno', '20-24', '3-5', 'no', '2', 'right', 'left_up', 'no\n']
+['no-recurrence-events', '40-49', 'premeno', '20-24', '3-5', 'no', '2', 'right', 'left_low', 'no\n']
+['no-recurrence-events', '40-49', 'ge40', '40-44', '15-17', 'yes', '2', 'right', 'left_up', 'yes\n']
+['no-recurrence-events', '50-59', 'premeno', '10-14', '0-2', 'no', '2', 'right', 'left_up', 'no\n']
+['no-recurrence-events', '40-49', 'ge40', '30-34', '0-2', 'no', '2', 'left', 'left_up', 'yes\n']
+['no-recurrence-events', '30-39', 'premeno', '20-24', '3-5', 'yes', '2', 'right', 'left_up', 'yes\n']
+['no-recurrence-events', '30-39', 'premeno', '15-19', '0-2', 'no', '1', 'left', 'left_low', 'no\n']
+['no-recurrence-events', '60-69', 'ge40', '30-34', '6-8', 'yes', '2', 'right', 'right_up', 'no\n']
+['no-recurrence-events', '50-59', 'ge40', '20-24', '3-5', 'yes', '2', 'right', 'left_up', 'no\n']
+['no-recurrence-events', '50-59', 'premeno', '25-29', '3-5', 'yes', '2', 'left', 'left_low', 'yes\n']
+['no-recurrence-events', '40-49', 'premeno', '30-34', '0-2', 'no', '2', 'right', 'right_up', 'yes\n']
+['no-recurrence-events', '40-49', 'ge40', '25-29', '0-2', 'no', '2', 'left', 'left_low', 'no\n']
+['no-recurrence-events', '60-69', 'ge40', '10-14', '0-2', 'no', '2', 'left', 'left_low', 'no\n']
+['no-recurrence-events', '50-59', 'premeno', '25-29', '3-5', 'no', '2', 'right', 'left_up', 'yes\n']
+['no-recurrence-events', '40-49', 'premeno', '20-24', '0-2', 'no', '3', 'right', 'left_low', 'yes\n']
+['no-recurrence-events', '40-49', 'premeno', '35-39', '0-2', 'yes', '3', 'right', 'left_up', 'yes\n']
+['no-recurrence-events', '40-49', 'premeno', '35-39', '0-2', 'yes', '3', 'right', 'left_low', 'yes\n']
+['no-recurrence-events', '40-49', 'premeno', '25-29', '0-2', 'no', '1', 'right', 'left_low', 'yes\n']
+['no-recurrence-events', '50-59', 'ge40', '30-34', '9-11', '?', '3', 'left', 'left_up', 'yes\n']
+['no-recurrence-events', '50-59', 'ge40', '30-34', '9-11', '?', '3', 'left', 'left_low', 'yes\n']
+['no-recurrence-events', '40-49', 'premeno', '20-24', '6-8', 'no', '2', 'right', 'left_low', 'yes\n']
+['no-recurrence-events', '50-59', 'ge40', '25-29', '0-2', 'no', '1', 'left', 'right_low', 'no\n']
+['no-recurrence-events', '60-69', 'ge40', '15-19', '0-2', 'no', '2', 'left', 'left_up', 'yes\n']
+['no-recurrence-events', '40-49', 'premeno', '10-14', '0-2', 'no', '2', 'right', 'left_up', 'no\n']
+['no-recurrence-events', '50-59', 'ge40', '20-24', '0-2', 'yes', '2', 'right', 'left_up', 'no\n']
+['no-recurrence-events', '40-49', 'premeno', '15-19', '12-14', 'no', '3', 'right', 'right_low', 'yes\n']
+['no-recurrence-events', '40-49', 'premeno', '25-29', '0-2', 'no', '2', 'left', 'left_up', 'yes\n']
+['no-recurrence-events', '50-59', 'ge40', '30-34', '6-8', 'yes', '2', 'left', 'left_low', 'no\n']
+['no-recurrence-events', '30-39', 'premeno', '10-14', '0-2', 'no', '2', 'left', 'right_low', 'no\n']
+['no-recurrence-events', '50-59', 'premeno', '50-54', '0-2', 'yes', '2', 'right', 'left_up', 'yes\n']
+['no-recurrence-events', '50-59', 'ge40', '35-39', '0-2', 'no', '2', 'left', 'left_up', 'no\n']
+['no-recurrence-events', '50-59', 'premeno', '10-14', '3-5', 'no', '1', 'right', 'left_up', 'no\n']
+['no-recurrence-events', '40-49', 'premeno', '10-14', '0-2', 'no', '2', 'left', 'left_low', 'yes\n']
+['no-recurrence-events', '50-59', 'ge40', '15-19', '0-2', 'yes', '2', 'left', 'central', 'yes\n']
+['no-recurrence-events', '50-59', 'premeno', '25-29', '0-2', 'no', '1', 'left', 'left_low', 'no\n']
+['no-recurrence-events', '60-69', 'ge40', '25-29', '0-2', 'no', '3', 'right', 'left_low', 'no\n']
+['recurrence-events', '50-59', 'premeno', '15-19', '0-2', 'no', '2', 'left', 'left_low', 'no\n']
+['recurrence-events', '40-49', 'premeno', '40-44', '0-2', 'no', '1', 'left', 'left_low', 'no\n']
+['recurrence-events', '50-59', 'ge40', '35-39', '0-2', 'no', '2', 'left', 'left_low', 'no\n']
+['recurrence-events', '50-59', 'premeno', '25-29', '0-2', 'no', '2', 'left', 'right_up', 'no\n']
+['recurrence-events', '30-39', 'premeno', '0-4', '0-2', 'no', '2', 'right', 'central', 'no\n']
+['recurrence-events', '50-59', 'ge40', '30-34', '0-2', 'no', '3', 'left', '?', 'no\n']
+['recurrence-events', '50-59', 'premeno', '25-29', '0-2', 'no', '2', 'left', 'right_up', 'no\n']
+['recurrence-events', '50-59', 'premeno', '30-34', '0-2', 'no', '3', 'left', 'right_up', 'no\n']
+['recurrence-events', '40-49', 'premeno', '35-39', '0-2', 'no', '1', 'right', 'left_up', 'no\n']
+['recurrence-events', '40-49', 'premeno', '20-24', '0-2', 'no', '2', 'left', 'left_low', 'no\n']
+['recurrence-events', '50-59', 'ge40', '20-24', '0-2', 'no', '2', 'right', 'central', 'no\n']
+['recurrence-events', '40-49', 'premeno', '30-34', '0-2', 'no', '3', 'right', 'right_up', 'no\n']
+['recurrence-events', '50-59', 'premeno', '25-29', '0-2', 'no', '1', 'right', 'left_up', 'no\n']
+['recurrence-events', '60-69', 'ge40', '40-44', '0-2', 'no', '2', 'right', 'left_low', 'no\n']
+['recurrence-events', '40-49', 'ge40', '20-24', '0-2', 'no', '2', 'right', 'left_up', 'no\n']
+['recurrence-events', '50-59', 'ge40', '20-24', '0-2', 'no', '2', 'left', 'left_up', 'no\n']
+['recurrence-events', '40-49', 'premeno', '15-19', '0-2', 'no', '2', 'left', 'left_up', 'no\n']
+['recurrence-events', '60-69', 'ge40', '30-34', '0-2', 'no', '3', 'right', 'central', 'no\n']
+['recurrence-events', '30-39', 'premeno', '15-19', '0-2', 'no', '1', 'right', 'left_low', 'no\n']
+['recurrence-events', '40-49', 'premeno', '25-29', '0-2', 'no', '3', 'left', 'right_up', 'no\n']
+['recurrence-events', '30-39', 'premeno', '30-34', '0-2', 'no', '1', 'right', 'left_up', 'no\n']
+['recurrence-events', '60-69', 'ge40', '25-29', '0-2', 'no', '3', 'left', 'right_low', 'yes\n']
+['recurrence-events', '60-69', 'ge40', '20-24', '0-2', 'no', '3', 'right', 'left_low', 'no\n']
+['recurrence-events', '30-39', 'premeno', '25-29', '3-5', 'yes', '3', 'left', 'left_low', 'yes\n']
+['recurrence-events', '40-49', 'ge40', '20-24', '3-5', 'no', '3', 'right', 'left_low', 'yes\n']
+['recurrence-events', '40-49', 'premeno', '30-34', '15-17', 'yes', '3', 'left', 'left_low', 'no\n']
+['recurrence-events', '50-59', 'premeno', '30-34', '0-2', 'no', '3', 'right', 'left_up', 'yes\n']
+['recurrence-events', '60-69', 'ge40', '40-44', '3-5', 'yes', '3', 'right', 'left_low', 'no\n']
+['recurrence-events', '60-69', 'ge40', '45-49', '0-2', 'no', '1', 'right', 'right_up', 'yes\n']
+['recurrence-events', '50-59', 'premeno', '50-54', '9-11', 'yes', '2', 'right', 'left_up', 'no\n']
+['recurrence-events', '40-49', 'premeno', '30-34', '3-5', 'no', '2', 'right', 'left_up', 'no\n']
+['recurrence-events', '30-39', 'premeno', '30-34', '3-5', 'no', '3', 'right', 'left_up', 'yes\n']
+['recurrence-events', '70-79', 'ge40', '15-19', '9-11', '?', '1', 'left', 'left_low', 'yes\n']
+['recurrence-events', '60-69', 'ge40', '30-34', '0-2', 'no', '3', 'right', 'left_up', 'yes\n']
+['recurrence-events', '50-59', 'premeno', '25-29', '3-5', 'yes', '3', 'left', 'left_low', 'yes\n']
+['recurrence-events', '40-49', 'premeno', '25-29', '0-2', 'no', '2', 'right', 'left_low', 'no\n']
+['recurrence-events', '40-49', 'premeno', '25-29', '0-2', 'no', '2', 'right', 'left_low', 'no\n']
+['recurrence-events', '30-39', 'premeno', '35-39', '0-2', 'no', '3', 'left', 'left_low', 'no\n']
+['recurrence-events', '40-49', 'premeno', '20-24', '3-5', 'yes', '2', 'right', 'right_up', 'yes\n']
+['recurrence-events', '60-69', 'ge40', '20-24', '3-5', 'no', '2', 'left', 'left_low', 'yes\n']
+['recurrence-events', '40-49', 'premeno', '15-19', '15-17', 'yes', '3', 'left', 'left_low', 'no\n']
+['recurrence-events', '50-59', 'ge40', '25-29', '6-8', 'no', '3', 'left', 'left_low', 'yes\n']
+['recurrence-events', '50-59', 'ge40', '20-24', '3-5', 'yes', '3', 'right', 'right_up', 'no\n']
+['recurrence-events', '40-49', 'premeno', '30-34', '12-14', 'yes', '3', 'left', 'left_up', 'yes\n']
+['recurrence-events', '30-39', 'premeno', '30-34', '9-11', 'no', '2', 'right', 'left_up', 'yes\n']
+['recurrence-events', '30-39', 'premeno', '15-19', '6-8', 'yes', '3', 'left', 'left_low', 'yes\n']
+['recurrence-events', '50-59', 'ge40', '30-34', '9-11', 'yes', '3', 'left', 'right_low', 'yes\n']
+['recurrence-events', '60-69', 'ge40', '35-39', '6-8', 'yes', '3', 'left', 'left_low', 'no\n']
+['recurrence-events', '30-39', 'premeno', '20-24', '3-5', 'yes', '2', 'left', 'left_low', 'no\n']
+['recurrence-events', '40-49', 'premeno', '25-29', '0-2', 'no', '3', 'left', 'left_up', 'no\n']
+['recurrence-events', '40-49', 'premeno', '50-54', '0-2', 'no', '2', 'right', 'left_low', 'yes\n']
+['recurrence-events', '30-39', 'premeno', '40-44', '0-2', 'no', '1', 'left', 'left_up', 'no\n']
+['recurrence-events', '60-69', 'ge40', '50-54', '0-2', 'no', '3', 'right', 'left_up', 'no\n']
+['recurrence-events', '40-49', 'premeno', '30-34', '0-2', 'yes', '3', 'right', 'right_up', 'no\n']
+['recurrence-events', '40-49', 'premeno', '30-34', '6-8', 'yes', '3', 'right', 'left_up', 'no\n']
+['recurrence-events', '40-49', 'premeno', '30-34', '0-2', 'no', '1', 'left', 'left_low', 'yes\n']
+['recurrence-events', '40-49', 'premeno', '20-24', '3-5', 'yes', '2', 'left', 'left_low', 'yes\n']
+['recurrence-events', '50-59', 'ge40', '30-34', '6-8', 'yes', '2', 'left', 'right_low', 'yes\n']
+['recurrence-events', '50-59', 'ge40', '30-34', '3-5', 'no', '3', 'right', 'left_up', 'no\n']
+['recurrence-events', '60-69', 'ge40', '25-29', '3-5', 'no', '2', 'right', 'right_up', 'no\n']
+['recurrence-events', '40-49', 'ge40', '25-29', '12-14', 'yes', '3', 'left', 'right_low', 'yes\n']
+['recurrence-events', '60-69', 'ge40', '25-29', '0-2', 'no', '3', 'left', 'left_up', 'no\n']
+['recurrence-events', '50-59', 'lt40', '20-24', '0-2', '?', '1', 'left', 'left_up', 'no\n']
+['recurrence-events', '50-59', 'lt40', '20-24', '0-2', '?', '1', 'left', 'left_low', 'no\n']
+['recurrence-events', '30-39', 'premeno', '35-39', '9-11', 'yes', '3', 'left', 'left_low', 'no\n']
+['recurrence-events', '40-49', 'premeno', '30-34', '3-5', 'yes', '2', 'left', 'right_up', 'no\n']
+['recurrence-events', '60-69', 'ge40', '20-24', '24-26', 'yes', '3', 'left', 'left_low', 'yes\n']
+['recurrence-events', '30-39', 'premeno', '35-39', '0-2', 'no', '3', 'left', 'left_low', 'no\n']
+['recurrence-events', '40-49', 'premeno', '25-29', '0-2', 'no', '2', 'left', 'left_low', 'yes\n']
+['recurrence-events', '50-59', 'ge40', '30-34', '6-8', 'yes', '3', 'left', 'right_low', 'no\n']
+['recurrence-events', '50-59', 'premeno', '25-29', '0-2', 'no', '3', 'right', 'left_low', 'yes\n']
+['recurrence-events', '40-49', 'premeno', '15-19', '0-2', 'yes', '3', 'right', 'left_up', 'no\n']
+['recurrence-events', '60-69', 'ge40', '30-34', '0-2', 'yes', '2', 'right', 'right_up', 'yes\n']
+['recurrence-events', '60-69', 'ge40', '30-34', '3-5', 'yes', '2', 'left', 'central', 'yes\n']
+['recurrence-events', '40-49', 'premeno', '25-29', '9-11', 'yes', '3', 'right', 'left_up', 'no\n']
+['recurrence-events', '30-39', 'premeno', '25-29', '6-8', 'yes', '3', 'left', 'right_low', 'yes\n']
+['recurrence-events', '60-69', 'ge40', '10-14', '6-8', 'yes', '3', 'left', 'left_up', 'yes\n']
+['recurrence-events', '50-59', 'premeno', '35-39', '15-17', 'yes', '3', 'right', 'right_up', 'no\n']
+['recurrence-events', '50-59', 'ge40', '40-44', '6-8', 'yes', '3', 'left', 'left_low', 'yes\n']
+['recurrence-events', '50-59', 'ge40', '40-44', '6-8', 'yes', '3', 'left', 'left_low', 'yes\n']
+['recurrence-events', '30-39', 'premeno', '30-34', '0-2', 'no', '2', 'left', 'left_up', 'no\n']
+['recurrence-events', '30-39', 'premeno', '20-24', '0-2', 'no', '3', 'left', 'left_up', 'yes\n']
+['recurrence-events', '60-69', 'ge40', '20-24', '0-2', 'no', '1', 'right', 'left_up', 'no\n']
+['recurrence-events', '40-49', 'ge40', '30-34', '3-5', 'no', '3', 'left', 'left_low', 'no\n']
+['recurrence-events', '50-59', 'ge40', '30-34', '3-5', 'no', '3', 'left', 'left_low', 'no\n']
+on step: 0
+on step: 1
+on step: 2
+on step: 3
+on step: 4
+on step: 5
+on step: 6
+on step: 7
+on step: 8
+on step: 9
+on step: 10
+on step: 11
+on step: 12
+on step: 13
+on step: 14
+on step: 15
+on step: 16
+on step: 17
+on step: 18
+on step: 19
+on step: 20
+on step: 21
+on step: 22
+on step: 23
+on step: 24
+Avg S: 0.7491067251461988
+Avg T: 4.479956360280194
+Sdata: [0.7449561403508772, 0.7449561403508772, 0.7449561403508772, 0.7449561403508772, 0.7622441520467836, 0.7449561403508772, 0.7622441520467836, 0.7622441520467836, 0.7449561403508772, 0.7449561403508772, 0.7449561403508772, 0.7622441520467836, 0.7449561403508772, 0.7449561403508772, 0.7449561403508772, 0.7449561403508772, 0.7622807017543859, 0.7449561403508772, 0.7449561403508772, 0.7622441520467836, 0.7449561403508772, 0.7449561403508772, 0.7449561403508772, 0.7449561403508772, 0.7449561403508772]
+Tdata: [4.832711683997331, 4.7645614390021365, 4.651926111997454, 4.997286502999486, 4.7401093160005985, 4.638748407000094, 4.23827944200093, 3.63022318000003, 4.830923638000968, 4.441550349998579, 4.436837293000281, 2.7014445530003286, 4.596701297999971, 4.290954392999993, 4.726576307002688, 4.845911308999348, 3.50994508200165, 4.58768813399729, 4.665900182000769, 3.819573910001054, 4.927222733000235, 4.532644040002197, 5.102030518999527, 4.802935543000785, 4.686223640001117]
+on step: 0
+on step: 1
+on step: 2
+on step: 3
+on step: 4
+on step: 5
+on step: 6
+on step: 7
+on step: 8
+on step: 9
+on step: 10
+on step: 11
+on step: 12
+on step: 13
+on step: 14
+on step: 15
+on step: 16
+on step: 17
+on step: 18
+on step: 19
+on step: 20
+on step: 21
+on step: 22
+on step: 23
+on step: 24
+Avg S: 0.7521769005847954
+Avg T: 46.65529763920014
+Sdata: [0.7449561403508772, 0.7449561403508772, 0.7449561403508772, 0.7449561403508772, 0.7449561403508772, 0.7449561403508772, 0.7657894736842105, 0.7658260233918129, 0.7449561403508772, 0.7449561403508772, 0.7449561403508772, 0.7449561403508772, 0.7449561403508772, 0.7657894736842105, 0.7658260233918129, 0.7449561403508772, 0.7623538011695906, 0.7657894736842105, 0.7449561403508772, 0.7692616959064328, 0.7449561403508772, 0.7449561403508772, 0.7622441520467836, 0.7449561403508772, 0.7622441520467836]
+Tdata: [45.35774575799951, 46.418660087001626, 46.32222355200065, 47.09386614200048, 48.96102885000073, 49.218018476996804, 45.392804447001254, 46.917401319999044, 48.94677100500121, 49.01839252400168, 48.912890355000854, 46.32635861400195, 47.15618878600071, 46.04391986400151, 45.69260074999693, 48.840408609001315, 37.56956428400008, 44.57674899899939, 49.729657142997894, 45.65474056400126, 49.914153393998276, 49.80991856699984, 39.66300023899748, 50.12523540800248, 42.72014324200063]
+on step: 0
+on step: 1
+on step: 2
+on step: 3
+on step: 4
+on step: 5
+on step: 6
+on step: 7
+on step: 8
+on step: 9
+on step: 10
+on step: 11
+on step: 12
+on step: 13
+on step: 14
+on step: 15
+on step: 16
+on step: 17
+on step: 18
+on step: 19
+on step: 20
+on step: 21
+on step: 22
+on step: 23
+on step: 24
+Avg S: 0.7641242690058482
+Avg T: 479.0347259308015
+Sdata: [0.7692616959064328, 0.7658260233918129, 0.7692616959064328, 0.7449561403508772, 0.7692616959064328, 0.7692616959064328, 0.7692616959064328, 0.7692616959064328, 0.7692616959064328, 0.7692616959064328, 0.7449561403508772, 0.7692616959064328, 0.7692616959064328, 0.7692616959064328, 0.7484283625730995, 0.7692616959064328, 0.7449561403508772, 0.7658260233918129, 0.7449561403508772, 0.7692616959064328, 0.7657529239766082, 0.7692616959064328, 0.7692616959064328, 0.7692616959064328, 0.7692616959064328]
+Tdata: [478.9598855889999, 491.5308701620015, 486.0977905949985, 486.1252381209997, 484.1166769619995, 472.8907894790027, 475.5495704030036, 470.5963983130059, 473.45509744599985, 474.8521381719984, 481.14721863800514, 477.3461632670005, 475.3091822549977, 478.426513628001, 483.221038276999, 486.87539210800605, 490.9365354649999, 483.37805727199884, 490.287853971, 478.07666173200414, 477.4788234870066, 468.1432853990045, 474.60039228299865, 461.96613265199994, 474.500442594006]

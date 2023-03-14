@@ -22,7 +22,7 @@ def run_PSO(X, y, save_suffix, n_iter_search):
     labels=y.tolist()
 
     search = {
-        'C': (0,100),
+        'C': [0.0000001,100],
         'gamma':[0,20]
              }
     @optunity.cross_validated(x=data, y=labels, num_folds=3)
@@ -59,7 +59,7 @@ def run_PSO(X, y, save_suffix, n_iter_search):
         Tdata.append(T)
         Sdata.append(info.optimum)
 
-        save("PSO_100_" + save_suffix, STEP, info.optimum, T)
+        save("PSO_" + str(n_iter_search) + "_" + save_suffix, STEP, info.optimum, T)
 
     Ttotal /= 25
     Stotal /= 25
@@ -82,6 +82,6 @@ run_PSO(X, y, "heart", 10000)
 
 X, y = get_dataset("breast")
 
-run_PSO(X, y, "heart", 100)
-run_PSO(X, y, "heart", 1000)
-run_PSO(X, y, "heart", 10000)
+run_PSO(X, y, "breast", 100)
+run_PSO(X, y, "breast", 1000)
+run_PSO(X, y, "breast", 10000)

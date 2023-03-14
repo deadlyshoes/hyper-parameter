@@ -24,7 +24,7 @@ def run_BOTPE(X, y, save_suffix, n_iter_search):
             "gamma":float(params['gamma'])
         }
         clf = SVC(**params)
-        score = cross_val_score(clf, X, y, scoring='accuracy', cv=StratifiedKFold(n_splits=3), n_jobs=-1).mean()
+        score = cross_val_score(clf, X, y, scoring='accuracy', cv=StratifiedKFold(n_splits=3), n_jobs=1).mean()
 
         return {'loss':-score, 'status': STATUS_OK }
 
@@ -57,7 +57,7 @@ def run_BOTPE(X, y, save_suffix, n_iter_search):
 
         print(STEP)
 
-        save("BOTPE_100_" + save_suffix, STEP, min(trials.losses()), T)
+        save("BOTPE_" + str(n_iter_search) + "_" + save_suffix, STEP, min(trials.losses()), T)
 
     Ttotal /= 25
     Stotal /= 25
@@ -65,8 +65,6 @@ def run_BOTPE(X, y, save_suffix, n_iter_search):
     print("Avg T:", Ttotal)
     print("Sdata:", Sdata)
     print("Tdata:", Tdata)
-
-X, y = get_dataset("heart")
 
 datasets = ["heart", "haberman", "breast"]
 iter_values = [100, 1000, 10000]
