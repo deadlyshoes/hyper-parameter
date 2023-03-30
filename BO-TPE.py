@@ -26,7 +26,7 @@ def run_BOTPE(X, y, save_suffix, n_iter_search):
         clf = SVC(**params)
         score = cross_val_score(clf, X, y, scoring='accuracy', cv=StratifiedKFold(n_splits=3), n_jobs=1).mean()
 
-        return {'loss':-score, 'status': STATUS_OK }
+        return {'loss':-score, 'status': STATUS_OK, 'P': params }
 
     space = {
         'C': hp.uniform('C', 0.0000001, 100),
@@ -37,6 +37,7 @@ def run_BOTPE(X, y, save_suffix, n_iter_search):
     Stotal = 0
     Sdata = []
     Tdata = []
+    Pdata = []
 
     for STEP in range(25):
         trials = Trials()
@@ -49,15 +50,21 @@ def run_BOTPE(X, y, save_suffix, n_iter_search):
         t2 = time.process_time()
         T = t2 - t1
 
+        i_best = 0
+        for i in range(1, len(trials.results)):
+            if trials.results[i]["loss"] < trials.results[i_best]["loss"]:
+                i_best = i
+
         Ttotal += T
-        Stotal += min(trials.losses())
+        Stotal += trials.results[i_best]["loss"]
 
         Tdata.append(T)
-        Sdata.append(min(trials.losses()))
+        Sdata.append(trials.results[i_best]["loss"])
+        Pdata.append(trials.results[i_best]["P"])
 
         print(STEP)
 
-        save("BOTPE_" + str(n_iter_search) + "_" + save_suffix, STEP, min(trials.losses()), T)
+        save("BOTPE_" + str(n_iter_search) + "_" + save_suffix, STEP, trials.results[i_best]["loss"], trials.results[i_best]["P"], T)
 
     Ttotal /= 25
     Stotal /= 25
@@ -65,6 +72,7 @@ def run_BOTPE(X, y, save_suffix, n_iter_search):
     print("Avg T:", Ttotal)
     print("Sdata:", Sdata)
     print("Tdata:", Tdata)
+    print("P:", Pdata)
 
 datasets = ["heart", "haberman", "breast"]
 iter_values = [100, 1000, 10000]

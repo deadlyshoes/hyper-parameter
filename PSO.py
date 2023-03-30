@@ -41,6 +41,7 @@ def run_PSO(X, y, save_suffix, n_iter_search):
     Stotal = 0
     Sdata = []
     Tdata = []
+    Pdata = []
 
     for STEP in range(25):
         print("on step:", STEP)
@@ -58,8 +59,9 @@ def run_PSO(X, y, save_suffix, n_iter_search):
 
         Tdata.append(T)
         Sdata.append(info.optimum)
+        Pdata.append(optimal_configuration)
 
-        save("PSO_" + str(n_iter_search) + "_" + save_suffix, STEP, info.optimum, T)
+        save("PSO_" + str(n_iter_search) + "_" + save_suffix, STEP, info.optimum, optimal_configuration, T)
 
     Ttotal /= 25
     Stotal /= 25
@@ -67,21 +69,12 @@ def run_PSO(X, y, save_suffix, n_iter_search):
     print("Avg T:", Ttotal)
     print("Sdata:", Sdata)
     print("Tdata:", Tdata)
+    print("P:", Pdata)
 
-X, y = get_dataset("haberman")
+datasets = ["heart", "haberman", "breast"]
+iter_values = [100, 1000, 10000]
 
-run_PSO(X, y, "haberman", 100)
-run_PSO(X, y, "haberman", 1000)
-run_PSO(X, y, "haberman", 10000)
-
-X, y = get_dataset("heart")
-
-run_PSO(X, y, "heart", 100)
-run_PSO(X, y, "heart", 1000)
-run_PSO(X, y, "heart", 10000)
-
-X, y = get_dataset("breast")
-
-run_PSO(X, y, "breast", 100)
-run_PSO(X, y, "breast", 1000)
-run_PSO(X, y, "breast", 10000)
+for dataset in datasets:
+    X, y = get_dataset(dataset)
+    for n_iter in iter_values:
+        run_PSO(X, y, dataset, n_iter)

@@ -27,6 +27,7 @@ def run_RS(X, y, save_suffix, n_iter_search):
     Stotal = 0
     Sdata = []
     Tdata = []
+    Pdata = []
 
     for STEP in range(25):
         t1 = time.time()
@@ -41,10 +42,11 @@ def run_RS(X, y, save_suffix, n_iter_search):
 
         Tdata.append(T)
         Sdata.append(Random.best_score_)
+        Pdata.append([Random.best_estimator_.C, Random.best_estimator_.gamma])
 
         print(STEP)
 
-        save("RS_" + str(n_iter_search) + "_" + save_suffix, STEP, Random.best_score_, T)
+        save("RS_" + str(n_iter_search) + "_" + save_suffix, STEP, Random.best_score_, [Random.best_estimator_.C, Random.best_estimator_.gamma], T)
 
     Ttotal /= 25
     Stotal /= 25
@@ -52,6 +54,7 @@ def run_RS(X, y, save_suffix, n_iter_search):
     print("Avg T:", Ttotal)
     print("Sdata:", Sdata)
     print("Tdata:", Tdata)
+    print("P:", Pdata)
 
 datasets = ["heart", "haberman", "breast"]
 iter_values = [100, 1000, 10000]

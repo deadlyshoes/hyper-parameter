@@ -29,6 +29,7 @@ def run_GS(X, y, dataset_name, n_iter_search):
     Stotal = 0
     Sdata = []
     Tdata = []
+    Pdata = []
 
     for STEP in range(25):
         t1 = time.process_time()
@@ -43,10 +44,11 @@ def run_GS(X, y, dataset_name, n_iter_search):
 
         Sdata.append(grid.best_score_)
         Tdata.append(T)
+        Pdata.append([grid.best_estimator_.C, grid.best_estimator_.gamma])
 
         print(STEP)
 
-        save("GS_" + str(n_iter_search) + "_" + dataset_name, STEP, grid.best_score_, T)
+        save("GS_" + str(n_iter_search) + "_" + dataset_name, STEP, grid.best_score_, [grid.best_estimator_.C, grid.best_estimator_.gamma], T)
 
     Ttotal /= 25
     Stotal /= 25
@@ -55,6 +57,7 @@ def run_GS(X, y, dataset_name, n_iter_search):
     print("Svg T:", Ttotal)
     print("Sdata:", Sdata)
     print("Tdata:", Tdata)
+    print("P:", Pdata)
 
 datasets = ["heart", "haberman", "breast"]
 iter_values = [100, 1000, 10000]
