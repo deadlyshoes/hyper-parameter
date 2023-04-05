@@ -106,9 +106,11 @@ def get_dataset(dataset_name):
 
     return X, y
 
-def save(save_dir, i, S, T):
+def save(save_dir, i, S, P, T):
     Path("results/" + save_dir).mkdir(parents=True, exist_ok=True)
     with open("results/" + save_dir + "/S" + str(i), "w") as S_file:
         S_file.write(json.dumps(S))
+    with open("results/" + save_dir + "/P" + str(i), "w") as P_file:
+        P_file.write(json.dumps(P))
     with open("results/" + save_dir + "/T" + str(i), "w") as T_file:
         T_file.write(json.dumps(T))
